@@ -1,0 +1,54 @@
+{
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/main/jar.txt",
+  "sites": [
+    {"key": "csp_YGP", "name": "预告片 | 新片", "type": 3, "api": "csp_YGP", "searchable": 1},
+    {"key": "豆瓣", "name": "豆瓣 | 搜索", "type": 3, "api": "csp_DouDou", "searchable": 0},
+    {"key": "玩偶", "name": "玩偶哥哥|4K 弹幕", "type": 3, "api": "csp_WoGG", "searchable": 1, "ext": {"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto", "siteUrl": "https://www.wogg.net/", "danMu": "弹"}},
+    {"key": "米搜", "name": "米盘 | 搜搜", "type": 3, "api": "csp_MIPanSo", "searchable": 1, "ext": {"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"}},
+    {"key": "Lib", "name": "立播 | 秒播", "type": 3, "api": "csp_Libvio", "searchable": 1, "ext": {"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"}},
+    {"key": "文采", "name": "文采 | 秒播", "type": 3, "api": "csp_Jpys", "playerType": 2, "searchable": 1},
+    {"key": "糯米", "name": "糯米 | 秒播", "type": 3, "api": "csp_Nmyswv", "searchable": 1},
+    {"key": "zxzj", "name": "在线 | 秒播", "type": 3, "api": "csp_Zxzj", "timeout": 15, "searchable": 1, "ext": "https://www.zxzjhd.com/"},
+    {"key": "厂长", "name": "厂长 | 不卡", "type": 3, "api": "csp_NewCz", "playerType": 2, "searchable": 1, "ext": "https://www.czzy77.com/"},
+    {"key": "苹果", "name": "苹果 | 不卡", "type": 3, "api": "csp_LiteApple", "searchable": 1},
+    {"key": "新 6V", "name": "新 6V|磁力", "type": 3, "api": "csp_SixV", "searchable": 1, "ext": "https://www.xb6v.com/"},
+    {"key": "短剧", "name": "上头 | 短剧", "type": 3, "api": "csp_Djtt", "searchable": 1},
+    {"key": "Dm84", "name": "巴士 | 动漫", "type": 3, "api": "csp_Dm84", "searchable": 1},
+    {"key": "量子", "name": "量子 | 采集", "type": 0, "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/", "searchable": 1},
+    {"key": "非凡", "name": "非凡 | 采集", "type": 0, "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/", "searchable": 1},
+    {"name": "菜逼粑", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "金鹰", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "红牛", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "无尽", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "樱花", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "速影", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "磁力熊", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "新6V", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "磁力猫", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "豆瓣", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "淘片", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "博看", "type": 0, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "IKAN", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "天空", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1},
+    {"name": "乐视", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1}
+  ],
+  "lives": [
+    {
+      "name": "综合直播",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 2,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    }
+  ],
+  "parses": [
+    {"name": "聚合", "type": 3, "url": "Demo"},
+    {"name": "虾米", "type": 0, "url": "https://jx.xmflv.com/?url="},
+    {"name": "m3u8", "type": 0, "url": "https://jx.m3u8.tv/jiexi/?url="},
+    {"name": "205", "type": 0, "url": "https://cj.lziapi.com/api.php/provide/vod/="}
+  ],
+  "flags": ["youku", "qq", "qiyi", "mgtv", "芒果", "bilibili", "1905"],
+  "_metadata": {"version": "2.0", "updated": "2026-07-19", "monitor": "auto"},
+  "_meta": {"ver": "4.0", "updated": "2026-07-20 03:00", "monitor": "auto", "last_check": "2026-07-20 03:00"}
+}
