@@ -15,19 +15,15 @@
     {"name": "直连", "hosts": ["direct"], "regex": ["#EXT-X-DISCONT"]}
   ],
   "urls": [
-    {"name": "菜妮丝", "url": "https://tvbox.cainisi.cf"},
+    {"name": "菜妮丝", "url": "https://www.cainisi.cf"},
     {"name": "肥猫", "url": "http://tvbox.cainisi.cf"},
     {"name": "莱咪", "url": "https://raw.liucn.cc/box/m.json"},
     {"name": "PG", "url": "https://pg.fengmi.one"},
     {"name": "饭太硬", "url": "https://www.liu-yizu.eu.org/shang.pyzx/n.json"},
     {"name": "短剧", "url": "http://www.lyyytv.cn/yt/MTV3.json"},
     {"name": "集短剧", "url": "http://duanju.one/duo.json"},
-    {"name": "摸鱼", "url": "http://我不是。摸猫资源.tech/mogu/dianshijucang/mogutv/moyu.json"},
     {"name": "宝盒", "url": "http://pandown.pro/tvbox/tvbox.json"},
-    {"name": "云星日记", "url": "http://itouzi.vercel.app"},
     {"name": "南风", "url": "https://agit.ai/6633/box/raw/branch/master/one.json"},
-    {"name": "HDmoli", "url": "http://hdhlm.top/hdholi.php"},
-    {"name": "神器", "url": "http://www.dmtv.ml/mao/single/json"},
     {"name": "直播源", "url": "https://raw.liucn.cc/box/live.txt"}
   ]
 }
