@@ -1,0 +1,310 @@
+{
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/main/jar.txt",
+  "wallpaper": "https://api.likepoems.com/img/bing",
+  "lives": [
+    {
+      "name": "📺 4K直播",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 2,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "📺 综合直播",
+      "type": 0,
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/dxawi/0/main/tv/m3u/iptv.m3u",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8002/e"
+    }
+  ],
+  "sites": [
+    {
+      "key": "csp_WoGG",
+      "name": "👑 玩偶哥哥 | 4K弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "csp_Libvio",
+      "name": "👑 立播 | 4K",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "csp_MIPanSo",
+      "name": "👑 米搜 | 4K",
+      "type": 3,
+      "api": "csp_MIPanSo",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "csp_Wogg",
+      "name": "👑 影视仓库 | 4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "",
+        "cookie": "",
+        "site": "https://www.usiotv.com",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "csp_Jpys",
+      "name": "🥇 金牌 | 超清",
+      "type": 3,
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 15
+    },
+    {
+      "key": "csp_Nmys",
+      "name": "🥇 农民 | 高清",
+      "type": 3,
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_Zxzj",
+      "name": "🥇 在线之家 | 高清",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzjhd.com/"
+    },
+    {
+      "key": "csp_NewCz",
+      "name": "🥇 厂长 | 不卡",
+      "type": 3,
+      "api": "csp_NewCz",
+      "playerType": 2,
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.czzy77.com/"
+    },
+    {
+      "key": "csp_Ddys",
+      "name": "🥇 低端 | 高清",
+      "type": 3,
+      "api": "csp_Ddys",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Kuaikan",
+      "name": "🥇 快看 | 更新",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Bttoo",
+      "name": "🥇 比特 | 高清",
+      "type": 3,
+      "api": "csp_Bttoo",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Dm84",
+      "name": "🥇 动漫巴士 | 动漫",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Ying",
+      "name": "🥇 樱花 | 动漫",
+      "type": 3,
+      "api": "csp_Ying",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Djtt",
+      "name": "🥇 短剧 | 短剧",
+      "type": 3,
+      "api": "csp_Djtt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Bili",
+      "name": "🥇 哔哩 | 高清",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://raw.liucn.cc/box/m.json"
+      }
+    },
+    {
+      "key": "csp_SixV",
+      "name": "🥇 新6V | 磁力",
+      "type": 3,
+      "api": "csp_SixV",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.xb6v.com/"
+    },
+    {
+      "key": "csp_555",
+      "name": "🥇 555影视 | 高清",
+      "type": 3,
+      "api": "csp_555",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Bdys",
+      "name": "🥇 哔滴 | 高清",
+      "type": 3,
+      "api": "csp_Bdys",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Ysgc",
+      "name": "🥇 视影 | 高清",
+      "type": 3,
+      "api": "csp_Ysgc",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Trainspider",
+      "name": "🥇 火车头 | 磁力",
+      "type": 3,
+      "api": "csp_Trainspider",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Wuqii",
+      "name": "🥇 吾趣 | 磁力",
+      "type": 3,
+      "api": "csp_Wuqii",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Dygod",
+      "name": "🥇 电影港 | 磁力",
+      "type": 3,
+      "api": "csp_Dygod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Kunyu77",
+      "name": "🥇 七七 | 影视",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_88kan",
+      "name": "🥇 88看 | 高清",
+      "type": 3,
+      "api": "csp_88kan",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_YQKan",
+      "name": "🥇 壹看 | 高清",
+      "type": 3,
+      "api": "csp_YQKan",
+      "searchable": 1,
+      "changeable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "🔥 聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "🥇 虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "🥇 m3u8",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "🥇 夜幕",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url="
+    },
+    {
+      "name": "🥇 冰豆",
+      "type": 0,
+      "url": "https://bd.jiemi.vip/?url="
+    },
+    {
+      "name": "🥇 365",
+      "type": 0,
+      "url": "https://chaxu.me/365jk/?url="
+    },
+    {
+      "name": "🥇 爱豆",
+      "type": 0,
+      "url": "https://jx.ifqz.top/dzzz/api.php?key=or5pqNZcmn&url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "QQ",
+    "iqiyi",
+    "qiyi",
+    "Four",
+    "imgo",
+    "mgtv",
+    "芒果",
+    "bilibili",
+    "Bili",
+    "Bilibili",
+    "1905"
+  ],
+  "rules": [
+    {"name": "广告", "hosts": ["m3u8", "mp4"], "regex": ["#EXT-X-DISCONT", "#EXT-X-KEY"]},
+    {"name": "量子", "hosts": ["lianzi", "vip"], "regex": ["#EXT-X-DISCONT"]},
+    {"name": "索尼", "hosts": ["suonizy"], "regex": ["#EXT-X-DISCONT"]},
+    {"name": "播放页面", "hosts": ["m3u8"], "regex": ["area", "recommende"]}
+  ]
+}
