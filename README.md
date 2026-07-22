@@ -1,4 +1,4 @@
-# TVBox 全自动监控系统 — v2.0 4K 专版
+# TVBox 全自动监控系统 — 4K 专版
 
 ## 系统架构
 
@@ -65,6 +65,23 @@ https://cdn.jsdelivr.net/gh/abu168888/tvbox-config@main/tvbox.json
 | 开机自启 | 启动批处理加入系统启动文件夹 |
 | 备份机制 | 每次修改前自动备份到 backups/ |
 | 日志系统 | monitor.log + server.log + errors.log |
+
+## 4K 片源优先级
+
+```
+🥇 第一梯队 (4K 云盘):
+  - 玩偶哥哥 4K 弹幕 (WoGG)
+  - 立播 4K (Libvio)
+  - 米搜 4K (MIPanSo)
+  - 影视仓库 4K (Wogg)
+
+🥈 第二梯队 (高清在线):
+  - 金牌/农民/在线/厂长/低端/快看/比特/555/哔滴/看客
+  - 新6V/555/哔滴 (磁力)
+
+🥉 第三梯队 (补充):
+  - 动漫/短剧/磁力/阅读
+```
 
 ## 运维命令
 
