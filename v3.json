@@ -1,0 +1,108 @@
+{
+  "spider": "https://raw.liucn.cc/box/spider.txt",
+  "wallpaper": "https://api.likepoems.com/img/bing",
+  "lives": [
+    {
+      "name": "央视卫视",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
+      "epg": "http://epg.51zmt.top:8002/e",
+      "ua": "okhttp/3.15"
+    }
+  ],
+  "sites": [
+    {
+      "key": "csp_Kuaikan",
+      "name": "快看影视 ⚡极速",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "changeable": 1,
+      "indexs": 1,
+      "ext": ""
+    },
+    {
+      "key": "csp_NewCz",
+      "name": "厂长资源 ⚡高速",
+      "type": 3,
+      "api": "csp_NewCz",
+      "playerType": 2,
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.czzy77.com/"
+    },
+    {
+      "key": "csp_Ddys",
+      "name": "低端影视 ⚡高清",
+      "type": 3,
+      "api": "csp_Ddys",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": ""
+    },
+    {
+      "key": "csp_Nmys",
+      "name": "农民影视 ⚡稳定",
+      "type": 3,
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 8
+    },
+    {
+      "key": "csp_SP360",
+      "name": "色猫 ⚡聚合",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": ""
+    },
+    {
+      "key": "csp_Libvio",
+      "name": "立播 | 阿里云盘",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "csp_MIPanSo",
+      "name": "米搜 | 百度网盘",
+      "type": 3,
+      "api": "csp_MIPanSo",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "csp_Bili",
+      "name": "哔哩哔哩 | 合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://raw.liucn.cc/box/m.json"
+      }
+    }
+  ],
+  "parses": [
+    {"name": "虾米解析", "type": 0, "url": "https://jx.xmflv.com/?url="},
+    {"name": "夜幕解析", "type": 0, "url": "https://www.yemu.xyz/?url="},
+    {"name": "m3u8 解析", "type": 0, "url": "https://jx.m3u8.tv/jiexi/?url="},
+    {"name": "免费解析", "type": 0, "url": "https://parse.ikunfk.run.goorm.io/?url="}
+  ],
+  "flags": ["youku", "qq", "iqiyi", "qiyi", "mgtv", "bilibili", "1905"],
+  "rules": [
+    {"name": "广告过滤", "hosts": ["m3u8", "mp4"], "regex": ["#EXT-X-DISCONT"]},
+    {"name": "量子广告", "hosts": ["lianzi", "vip"], "regex": ["#EXT-X-DISCONT"]}
+  ]
+}
