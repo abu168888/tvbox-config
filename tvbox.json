@@ -1,21 +1,137 @@
 {
   "spider": "https://raw.liucn.cc/box/spider.txt",
-  "wallpaper": "https://api.likepoems.com/img/bing",
-  "lives": [{
-    "name": "live",
-    "type": 0,
-    "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
-    "epg": "http://epg.51zmt.top:8002/e",
-    "ua": "okhttp/3.15"
-  }],
-  "rules": [
-    {"name": "火山", "hosts": ["vip"], "regex": ["#EXT-X-DISCONT", "#EXT-X-M3U8"]},
-    {"name": "量子", "hosts": ["lianzi", "vip"], "regex": ["#EXT-X-DISCONT", "#EXT-X-M3U8"]},
-    {"name": "索尼", "hosts": ["suonizy"], "regex": ["#EXT-X-DISCONT", ".m3u8"]},
-    {"name": "直连", "hosts": ["direct"], "regex": ["#EXT-X-DISCONT"]}
+  "wallpaper": "https://source.unsplash.com/random/1920x1080?nature",
+  "lives": [
+    {
+      "name": "央视卫视频道",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+      "epg": "http://epg.51zmt.top:8002/e",
+      "logo": "https://live.fanmingming.cn/tv/{name}.png",
+      "ua": "okhttp/3.15"
+    }
   ],
-  "urls": [
-    {"name": "莱咪", "url": "https://raw.liucn.cc/box/m.json"},
-    {"name": "南风", "url": "https://agit.ai/6633/box/raw/branch/master/one.json"}
+  "sites": [
+    {
+      "key": "csp_WoGG",
+      "name": "玩偶哥哥 | 4K 弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "csp_Libvio",
+      "name": "立播 | 4K",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "csp_MIPanSo",
+      "name": "米搜 | 4K",
+      "type": 3,
+      "api": "csp_MIPanSo",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "csp_NewCz",
+      "name": "厂长 | 不卡",
+      "type": 3,
+      "api": "csp_NewCz",
+      "playerType": 2,
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.czzy77.com/"
+    },
+    {
+      "key": "csp_Ddys",
+      "name": "低端 | 高清",
+      "type": 3,
+      "api": "csp_Ddys",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Kuaikan",
+      "name": "快看 | 更新",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Bili",
+      "name": "哔哩 | 高清",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://raw.liucn.cc/box/m.json"
+      }
+    },
+    {
+      "key": "csp_Nmys",
+      "name": "农民 | 高清",
+      "type": 3,
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 10
+    }
+  ],
+  "parses": [
+    {
+      "name": "虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "m3u8",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "夜幕",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "QQ",
+    "iqiyi",
+    "qiyi",
+    "Four",
+    "imgo",
+    "mgtv",
+    "芒果",
+    "bilibili",
+    "Bili",
+    "Bilibili",
+    "1905"
+  ],
+  "rules": [
+    {"name": "广告", "hosts": ["m3u8", "mp4"], "regex": ["#EXT-X-DISCONT", "#EXT-X-KEY"]},
+    {"name": "量子", "hosts": ["lianzi", "vip"], "regex": ["#EXT-X-DISCONT"]},
+    {"name": "索尼", "hosts": ["suonizy"], "regex": ["#EXT-X-DISCONT"]}
   ]
 }
