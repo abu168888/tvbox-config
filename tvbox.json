@@ -28,7 +28,7 @@
     },
     {
       "key": "csp_Libvio",
-      "name": "立播 | 4K",
+      "name": "立播 | 阿里云盘",
       "type": 3,
       "api": "csp_Libvio",
       "searchable": 1,
@@ -40,7 +40,7 @@
     },
     {
       "key": "csp_MIPanSo",
-      "name": "米搜 | 4K",
+      "name": "米搜 | 百度网盘",
       "type": 3,
       "api": "csp_MIPanSo",
       "searchable": 1,
@@ -52,7 +52,7 @@
     },
     {
       "key": "csp_NewCz",
-      "name": "厂长 | 不卡",
+      "name": "厂长资源 | 流畅",
       "type": 3,
       "api": "csp_NewCz",
       "playerType": 2,
@@ -62,7 +62,7 @@
     },
     {
       "key": "csp_Ddys",
-      "name": "低端 | 高清",
+      "name": "低端影视 | 高清",
       "type": 3,
       "api": "csp_Ddys",
       "searchable": 1,
@@ -70,7 +70,7 @@
     },
     {
       "key": "csp_Kuaikan",
-      "name": "快看 | 更新",
+      "name": "快看影视 | 更新快",
       "type": 3,
       "api": "csp_Kuaikan",
       "searchable": 1,
@@ -78,7 +78,7 @@
     },
     {
       "key": "csp_Bili",
-      "name": "哔哩 | 高清",
+      "name": "哔哩哔哩 | 综合",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -89,29 +89,50 @@
     },
     {
       "key": "csp_Nmys",
-      "name": "农民 | 高清",
+      "name": "农民影视 | 经典",
       "type": 3,
       "api": "csp_Nmys",
       "searchable": 1,
       "changeable": 1,
       "timeout": 10
+    },
+    {
+      "key": "csp_Panda",
+      "name": "熊猫 | 不卡",
+      "type": 3,
+      "api": "csp_Panda",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_SP360",
+      "name": "色猫 | 聚合",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "changeable": 1
     }
   ],
   "parses": [
     {
-      "name": "虾米",
+      "name": "虾米解析",
       "type": 0,
       "url": "https://jx.xmflv.com/?url="
     },
     {
-      "name": "m3u8",
+      "name": "夜幕解析",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url="
+    },
+    {
+      "name": "m3u8 解析",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
     },
     {
-      "name": "夜幕",
+      "name": "免费解析",
       "type": 0,
-      "url": "https://www.yemu.xyz/?url="
+      "url": "https://parse.ikunfk.run.goorm.io/?url="
     }
   ],
   "flags": [
@@ -130,8 +151,8 @@
     "1905"
   ],
   "rules": [
-    {"name": "广告", "hosts": ["m3u8", "mp4"], "regex": ["#EXT-X-DISCONT", "#EXT-X-KEY"]},
-    {"name": "量子", "hosts": ["lianzi", "vip"], "regex": ["#EXT-X-DISCONT"]},
-    {"name": "索尼", "hosts": ["suonizy"], "regex": ["#EXT-X-DISCONT"]}
+    {"name": "广告过滤", "hosts": ["m3u8", "mp4"], "regex": ["#EXT-X-DISCONT", "#EXT-X-KEY"]},
+    {"name": "量子广告", "hosts": ["lianzi", "vip"], "regex": ["#EXT-X-DISCONT"]},
+    {"name": "索尼广告", "hosts": ["suonizy"], "regex": ["#EXT-X-DISCONT"]}
   ]
 }
