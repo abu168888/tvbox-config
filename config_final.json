@@ -1,0 +1,217 @@
+{
+  "name": "TVBox-自主构建",
+  "agent": "AutoDiscovery-v1.0",
+  "spider": "",
+  "wallpaper": "http://api.likepoems.com/img/bing",
+  "sites": [
+    {
+      "name": "【豆瓣】250",
+      "key": "douban_250",
+      "type": 3,
+      "api": "csp_Douban",
+      "ext": "https://9280.kstore.vip/douban.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "indexs": 1
+    },
+    {
+      "name": "【直播】全网",
+      "key": "live_all",
+      "type": 0,
+      "api": "",
+      "url": "https://tv.iill.top/m3u/ipv6.txt",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "indexs": 1
+    },
+    {
+      "name": "【央视】CCTV",
+      "key": "live_cctv",
+      "type": 0,
+      "api": "",
+      "url": "http://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "indexs": 1
+    },
+    {
+      "name": "【4K 云盘】精选",
+      "key": "cloud4k_select",
+      "type": 3,
+      "api": "csp_Cloud4K",
+      "ext": "https://9280.kstore.vip/cloud4k.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【饭太硬】秒播",
+      "key": "fantaiying_mb",
+      "type": 3,
+      "api": "csp_Fantaiying",
+      "ext": "https://weixine.net/js/fantaiying.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【肥猫】秒播",
+      "key": "feimao_mb",
+      "type": 3,
+      "api": "csp_Feimao",
+      "ext": "http://肥猫.com/feimao.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【农民】秒播",
+      "key": "nm_meibo",
+      "type": 3,
+      "api": "csp_NmMeibo",
+      "ext": "https://gitlab.com/yanght233/npm/-/raw/main/nm_meibo.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【厂长】资源",
+      "key": "czzy_js",
+      "type": 3,
+      "api": "csp_Czzy",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_czzy.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【低端】影视",
+      "key": "ddys_js",
+      "type": 3,
+      "api": "csp_Ddys",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_ddys.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【瓜子】影院",
+      "key": "guazi_js",
+      "type": 3,
+      "api": "csp_Guazi",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_guazi.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【动漫】天堂",
+      "key": "dmkt_jp",
+      "type": 3,
+      "api": "csp_Dmku",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_dmku.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【短剧】大全",
+      "key": "duanju_net",
+      "type": 3,
+      "api": "csp_Duanju",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_duanju.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【听书】FM",
+      "key": "tingshu_js",
+      "type": 3,
+      "api": "csp_Tingshu",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_tingshu.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "indexs": 1
+    },
+    {
+      "name": "【少儿】动画",
+      "key": "ershi_js",
+      "type": 3,
+      "api": "csp_Ershijie",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_ershi.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【爱奇艺】高清",
+      "key": "iqiyi_js",
+      "type": 3,
+      "api": "csp_Iqiyi",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_iqiyi.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【腾讯】视频",
+      "key": "qq_video",
+      "type": 3,
+      "api": "csp_QQ",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_qq.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【优酷】视频",
+      "key": "youku_js",
+      "type": 3,
+      "api": "csp_Youku",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_youku.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【芒果】TV",
+      "key": "mgtv_js",
+      "type": 3,
+      "api": "csp_Mgtv",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_mgtv.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    },
+    {
+      "name": "【哔哩】哔哩",
+      "key": "bili_bili",
+      "type": 3,
+      "api": "csp_Bili",
+      "ext": "https://jihulab.com/ymz1231/xymz/-/raw/main/dr/csp_bili.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "indexs": 1
+    }
+  ]
+}
