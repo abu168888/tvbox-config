@@ -1,117 +1,74 @@
 {
-  "spider": "https://ghfast.top/https://raw.githubusercontent.com/gaotianliuyun/gao/master/jar/py1999.jar",
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "lives": [
-    {
-      "name": "直播测试",
-      "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m3u/general.m3u8",
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "聚合直播",
-      "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m3u/live.txt",
-      "ua": "okhttp/3.15"
-    }
-  ],
+  "spider": "",
+  "wallpaper": "https://picsum.photos/1920/1080",
   "sites": [
     {
       "key": "360",
-      "name": "📺360影视",
+      "name": "🎬 360影视",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["爽文短剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "NBA", "台湾剧", "纪录片"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "台湾剧", "日本剧", "动漫"]
     },
     {
       "key": "红牛",
-      "name": "📺红牛影视",
+      "name": "🎬 红牛影视",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "api": "https://www.hongniuzy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
       "key": "量子",
-      "name": "📺量子影视",
-      "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "name": "🎬 量子影视",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["短剧", "国产剧", "日韩剧", "港台剧", "欧美剧", "泰国剧", "动漫", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片"]
+      "categories": ["国产剧", "香港剧", "台湾剧", "韩国剧", "日本剧", "欧美剧", "泰国剧", "动漫", "综艺", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "纪录片"]
     },
     {
       "key": "非凡",
-      "name": "📺非凡影视",
+      "name": "🎬 非凡影视",
       "type": 1,
       "api": "http://cj.ffzyapi.com//api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["短剧", "动作片", "喜剧片", "科幻片", "恐怖片", "爱情片", "剧情片", "战争片", "国产剧", "欧美剧", "香港剧", "韩国剧", "台湾剧", "日本剧", "动漫", "综艺"]
-    },
-    {
-      "key": "速博",
-      "name": "📺速博影视",
-      "type": 1,
-      "api": "https://suboboapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "maxs",
-      "name": "📺暴风影视",
-      "type": 1,
-      "api": "https://bfzy-api.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "categories": ["短剧", "动作片", "喜剧片", "科幻片", "恐怖片", "爱情片", "剧情片", "战争片", "国产剧", "欧美剧", "香港剧", "韩国剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "动漫", "综艺"]
     },
     {
       "key": "索尼",
-      "name": "📺索尼影视",
+      "name": "🎬 索尼影视",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧", "纪录片", "大陆综艺", "日韩综艺", "国产动漫", "日韩动漫"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧", "纪录片", "综艺", "动漫"]
     },
     {
-      "key": "push_agent",
-      "name": "📮网盘┃推送",
-      "type": 3,
-      "api": "csp_Push",
+      "key": "maxs",
+      "name": "🎬 暴风影视",
+      "type": 1,
+      "api": "https://bfzui.com/api.php/provide/vod",
       "searchable": 1,
-      "ext": "./lib/tokenm.json"
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
-  "rules": [
+  "lives": [
     {
-      "name": "量子",
-      "hosts": ["lziz"],
-      "regex": ["default"]
-    },
-    {
-      "name": "索尼",
-      "hosts": ["suonizy"],
-      "regex": ["default"]
-    },
-    {
-      "name": "开源中国",
-      "hosts": ["github.com"],
-      "regex": ["raw.githubusercontent.com"]
+      "name": "聚合直播",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m3u/general.m3u8",
+      "ua": "okhttp/3.15"
     }
   ],
-  "ads": [
-    "https://fpminer.flybird.net/fastlay/config.json",
-    "https://insecure-flying-sauce.glitch.me/static.html",
-    "http://www.bing.com/HR/rrs/s.gif"
-  ]
+  "rules": [],
+  "ads": []
 }
