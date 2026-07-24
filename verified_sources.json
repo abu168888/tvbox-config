@@ -1,0 +1,31 @@
+[
+  {
+    "name": "👽玩偶哥哥┃4K弹幕",
+    "api": "./lib/drpy2.min.js",
+    "size_kb": 1341,
+    "ext": {
+      "Cloud-drive": "tvfan/Cloud-drive.txt",
+      "from": "4k|auto",
+      "siteUrl": "https://www.wogg.com/",
+      "danMu": "弹"
+    }
+  },
+  {
+    "name": "🧲新6V┃磁力",
+    "api": "./lib/drpy2.min.js",
+    "size_kb": 50,
+    "ext": "https://www.xb6v.com/"
+  },
+  {
+    "name": "新6V磁力┃慎用",
+    "api": "./lib/drpy2.min.js",
+    "size_kb": 50,
+    "ext": "http://www.xb6v.com/"
+  },
+  {
+    "name": "🏝奥特┃多线",
+    "api": "./lib/drpy2.min.js",
+    "size_kb": 44,
+    "ext": "https://auete.com/"
+  }
+]

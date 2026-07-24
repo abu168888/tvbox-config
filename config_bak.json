@@ -150,98 +150,6 @@
       "changeable": 0
     },
     {
-      "key": "Wogg4K",
-      "name": "💡玩偶┃4K 弹幕💡",
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "Wogg_New",
-      "name": "✨玩偶•4K(新)✨",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": {
-        "site": [
-          "https://www.wogg.net",
-          "https://wogg.xxooo.cf",
-          "https://woggpan.xxooo.cf"
-        ]
-      }
-    },
-    {
-      "key": "ZhiZhen_New",
-      "name": "✨至臻•4K(新)✨",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": {
-        "site": [
-          "https://mihdr.top",
-          "https://www.miqk.cc",
-          "https://www.mihdr.top"
-        ]
-      }
-    },
-    {
-      "key": "GuGu_Anime",
-      "name": "✨咕咕•动漫✨",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 30,
-      "ext": {
-        "url": "https://www.gugu3.com",
-        "dataKey": "nKfZ8KX6JTNWRzTD",
-        "dataIv": "nKfZ8KX6JTNWRzTD"
-      }
-    },
-    {
-      "key": "Pan123_4K",
-      "name": "✨123•4K✨",
-      "type": 3,
-      "api": "csp_PanWebShare123",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": {
-        "site": [
-          "https://123panfx.com",
-          "https://pan1.me"
-        ]
-      }
-    },
-    {
-      "key": "New6V_Magnet",
-      "name": "✨New6V•磁力✨",
-      "type": 3,
-      "api": "csp_New6v",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 30,
-      "ext": "https://www.xb6v.com"
-    },
-    {
       "key": "WexGuaZi",
       "name": "💥瓜子┃秒播💥",
       "type": 3,
@@ -1158,4 +1066,3 @@
     }
   ]
 }
-

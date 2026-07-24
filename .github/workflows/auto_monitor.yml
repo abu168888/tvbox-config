@@ -11,15 +11,16 @@ on:
       action_type:
         description: '执行操作类型'
         required: true
-        default: 'both'
+        default: 'full'
         type: choice
         options:
-          - both
+          - full
           - collect_only
           - monitor_only
+          - clean_failures
 
 jobs:
-  collect-and-monitor:
+  auto-maintenance:
     runs-on: ubuntu-latest
     
     steps:
@@ -37,28 +38,54 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run collector (weekly or manual trigger)
-        if: github.event_name == 'schedule' && github.event.schedule == '0 20 * * 0' || github.event_name == 'workflow_dispatch' && (github.event.inputs.action_type == 'collect_only' || github.event.inputs.action_type == 'both')
+      # Step 1: Collect new sources (weekly or manual)
+      - name: Run collector (weekly)
+        if: github.event_name == 'schedule' && github.event.schedule == '0 20 * * 0' || github.event_name == 'workflow_dispatch' && contains(github.event.inputs.action_type, 'collect')
         run: python auto_collector.py
+        continue-on-error: true
 
-      - name: Run monitor system (daily or manual trigger)
-        if: github.event_name == 'schedule' && github.event.schedule == '0 19 * * *' || github.event_name == 'workflow_dispatch' && (github.event.inputs.action_type == 'monitor_only' || github.event.inputs.action_type == 'both')
-        run: python monitor_system.py
+      # Step 2: Monitor health (daily or manual)
+      - name: Run monitor system (daily)
+        if: github.event_name == 'schedule' && github.event.schedule == '0 19 * * *' || github.event_name == 'workflow_dispatch' && contains(github.event.inputs.action_type, 'monitor')
+        run: |
+          python monitor_system.py
+          echo "Monitoring complete"
+        continue-on-error: true
 
+      # Step 3: Track and clean failed sites (daily)
+      - name: Track failures and auto-clean
+        if: github.event_name == 'schedule' && github.event.schedule == '0 19 * * *' || github.event_name == 'workflow_dispatch' && contains(github.event.inputs.action_type, 'clean')
+        run: |
+          # Auto-remove sites that failed for 7+ consecutive days
+          echo "y" | python track_failures.py
+        continue-on-error: true
+
+      # Step 4: Commit all changes
       - name: Commit and push results
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Check for changes
+          # Add all changed files
           git add .
-          git diff --staged --quiet || git commit -m "🤖 Auto update: $(date '+%Y-%m-%d %H:%M')"
           
-          git push 2>&1 || echo "No changes to commit"
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto maintenance: $(date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
 
-      - name: Upload report artifact
+      # Step 5: Upload reports as artifacts
+      - name: Upload health report
         uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: health-report
-          path: health_report.html
-          retention-days: 7
+          name: health-report-$(date '+%Y%m%d')
+          path: |
+            health_report.html
+            collection_results.json
+            failure_tracking.json
+          retention-days: 14
+          overwrite: true
