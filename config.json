@@ -1,116 +1,117 @@
 {
-  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jahdong/TV/master/jar/sp.jar;md5;abc123",
-  "wallpaper": "https://picsum.photos/1920/1080",
-  "logo": "https://cdn.jsdelivr.net/gh/alibaba/city/logo.svg",
+  "spider": "https://ghfast.top/https://raw.githubusercontent.com/gaotianliuyun/gao/master/jar/py1999.jar",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "lives": [
+    {
+      "name": "直播测试",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m3u/general.m3u8",
+      "ua": "okhttp/3.15"
+    },
+    {
+      "name": "聚合直播",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m3u/live.txt",
+      "ua": "okhttp/3.15"
+    }
+  ],
   "sites": [
     {
-      "key": "NewDouBan",
-      "name": "🐮【阿不专属】🐮",
-      "type": 3,
-      "api": "csp_NewDouBanGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-    },
-    {
-      "key": "Doubana",
-      "name": "🐮【更新日期：自动维护】🐮",
-      "type": 3,
-      "api": "csp_NewDouBanGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-    },
-    {
-      "key": "Wexconfig",
-      "name": "🐮配置┃中心🐮",
-      "type": 3,
-      "api": "csp_WexConfigGuard",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": { "type": "list" }
-    },
-    {
-      "key": "二小",
-      "name": "💓‍指南┃4K💓‍",
-      "type": 3,
-      "api": "csp_NewErXiaoGuard",
+      "key": "360",
+      "name": "📺360影视",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "filterable": 1,
+      "categories": ["爽文短剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "NBA", "台湾剧", "纪录片"]
     },
     {
-      "key": "玩偶",
-      "name": "💓‍玩偶┃4K💓‍",
-      "type": 3,
-      "api": "csp_NewWoggGuard",
+      "key": "红牛",
+      "name": "📺红牛影视",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "filterable": 1
     },
     {
-      "key": "NewZhiZhen",
-      "name": "💓至臻┃4K💓",
-      "type": 3,
-      "api": "csp_NewZhiZhenGuard",
+      "key": "量子",
+      "name": "📺量子影视",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "filterable": 1,
+      "categories": ["短剧", "国产剧", "日韩剧", "港台剧", "欧美剧", "泰国剧", "动漫", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片"]
     },
     {
-      "key": "NewGuanYing",
-      "name": "💓观影┃4K💓",
-      "type": 3,
-      "api": "csp_NewGuanYingGuard",
+      "key": "非凡",
+      "name": "📺非凡影视",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com//api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 120
+      "filterable": 1,
+      "categories": ["短剧", "动作片", "喜剧片", "科幻片", "恐怖片", "爱情片", "剧情片", "战争片", "国产剧", "欧美剧", "香港剧", "韩国剧", "台湾剧", "日本剧", "动漫", "综艺"]
     },
     {
-      "key": "LiveHuYa",
-      "name": "🐯‍虎牙┃直播🐯‍",
-      "type": 3,
-      "api": "csp_LiveHuYaGuard",
+      "key": "速博",
+      "name": "📺速博影视",
+      "type": 1,
+      "api": "https://suboboapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "changeable": 0
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
-      "key": "LiveDouYu",
-      "name": "🐳斗鱼┃直播🐳",
-      "type": 3,
-      "api": "csp_LiveDouYuGuard",
+      "key": "maxs",
+      "name": "📺暴风影视",
+      "type": 1,
+      "api": "https://bfzy-api.com/api.php/provide/vod/",
       "searchable": 1,
-      "changeable": 0
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "索尼",
+      "name": "📺索尼影视",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧", "纪录片", "大陆综艺", "日韩综艺", "国产动漫", "日韩动漫"]
     },
     {
       "key": "push_agent",
-      "name": "推送",
+      "name": "📮网盘┃推送",
       "type": 3,
-      "api": "csp_PushGuard",
+      "api": "csp_Push",
       "searchable": 1,
-      "changeable": 0
-    }
-  ],
-  "lives": [
-    {
-      "name": "综合直播",
-      "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "playerType": 2,
-      "ua": "bingcha/1.1 (mianfeifenxiang)"
+      "ext": "./lib/tokenm.json"
     }
   ],
   "rules": [
     {
-      "name": "proxy",
-      "hosts": ["hlsztemgsplive.miguvideo.com=hlsztemgsplive.188766.xyz"]
+      "name": "量子",
+      "hosts": ["lziz"],
+      "regex": ["default"]
+    },
+    {
+      "name": "索尼",
+      "hosts": ["suonizy"],
+      "regex": ["default"]
+    },
+    {
+      "name": "开源中国",
+      "hosts": ["github.com"],
+      "regex": ["raw.githubusercontent.com"]
     }
   ],
-  "ads": ["mozai.4gtv.tv", "pv.vipwm.cc"]
+  "ads": [
+    "https://fpminer.flybird.net/fastlay/config.json",
+    "https://insecure-flying-sauce.glitch.me/static.html",
+    "http://www.bing.com/HR/rrs/s.gif"
+  ]
 }
