@@ -1,0 +1,122 @@
+{
+  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/jahdong/TV/master/jar/sp.jar",
+  "wallpaper": "https://picsum.photos/1920/1080",
+  "sites": [
+    {
+      "key": "NewDouBan",
+      "name": "阿不-豆瓣",
+      "type": 3,
+      "api": "csp_NewDouBanGuard",
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+    },
+    {
+      "key": "Doubana",
+      "name": "阿不-更新日期:20260723",
+      "type": 3,
+      "api": "csp_NewDouBanGuard",
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+    },
+    {
+      "key": "Wexconfig",
+      "name": "配置中心",
+      "type": 3,
+      "api": "csp_WexConfigGuard",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "二小",
+      "name": "指南-4K",
+      "type": 3,
+      "api": "csp_NewErXiaoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "玩偶",
+      "name": "玩偶-4K",
+      "type": 3,
+      "api": "csp_NewWoggGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "NewZhiZhen",
+      "name": "至臻-4K",
+      "type": 3,
+      "api": "csp_NewZhiZhenGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "NewGuanYing",
+      "name": "观影-4K",
+      "type": 3,
+      "api": "csp_NewGuanYingGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "timeout": 120
+    },
+    {
+      "key": "LiveHuYa",
+      "name": "虎牙-直播",
+      "type": 3,
+      "api": "csp_LiveHuYaGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "LiveDouYu",
+      "name": "斗鱼-直播",
+      "type": 3,
+      "api": "csp_LiveDouYuGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_PushGuard",
+      "searchable": 1,
+      "changeable": 0
+    }
+  ],
+  "lives": [
+    {
+      "name": "综合直播",
+      "type": 0,
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "playerType": 2,
+      "ua": "bingcha/1.1 (mianfeifenxiang)"
+    }
+  ],
+  "rules": [
+    {
+      "name": "proxy",
+      "hosts": [
+        "hlsztemgsplive.miguvideo.com=hlsztemgsplive.188766.xyz"
+      ]
+    }
+  ],
+  "ads": [
+    "mozai.4gtv.tv",
+    "pv.vipwm.cc"
+  ]
+}
