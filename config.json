@@ -141,6 +141,69 @@
       "changeable": 0
     },
     {
+      "key": "NewCz",
+      "name": "💡厂长┃不卡💡",
+      "type": 3,
+      "api": "csp_NewCzGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Nmyswv",
+      "name": "💡糯米┃秒播💡",
+      "type": 3,
+      "api": "csp_NmyswvGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Sbaibai",
+      "name": "💡白白┃秒播💡",
+      "type": 3,
+      "api": "csp_SbaibaiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Jpys",
+      "name": "💡文采┃秒播💡",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "AppSK",
+      "name": "💡神车┃秒播💡",
+      "type": 3,
+      "api": "csp_AppSKGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "Libvio",
+      "name": "💡立播┃秒播💡",
+      "type": 3,
+      "api": "csp_LibvioGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Zxzj",
+      "name": "💡在线┃秒播💡",
+      "type": 3,
+      "api": "csp_ZxzjGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "WexHanXiaoQuan",
       "name": "💥韩剧┃秒播💥",
       "type": 3,
@@ -1066,3 +1129,4 @@
     }
   ]
 }
+
