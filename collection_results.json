@@ -1,0 +1,193 @@
+{
+  "timestamp": "2026-07-24T17:38:39.977804",
+  "total_candidates": 70,
+  "verified_count": 20,
+  "failed_count": 50,
+  "unique_sources": 8,
+  "top_sources": [
+    {
+      "name": "玩偶 • 4K",
+      "api": "csp_Wogg",
+      "size_kb": 719,
+      "source": "qist-jsm",
+      "ext": {
+        "site": [
+          "https://www.wogg.net",
+          "https://wogg.xxooo.cf",
+          "https://woggpan.xxooo.cf"
+        ]
+      }
+    },
+    {
+      "name": "至臻 • 4K",
+      "api": "csp_PanWebShare",
+      "size_kb": 714,
+      "source": "qist-jsm",
+      "ext": {
+        "site": [
+          "https://mihdr.top",
+          "https://www.miqk.cc",
+          "https://www.mihdr.top"
+        ]
+      }
+    },
+    {
+      "name": "咕咕 • 动漫",
+      "api": "csp_AppGet",
+      "size_kb": 242,
+      "source": "qist-jsm",
+      "ext": {
+        "url": "https://www.gugu3.com",
+        "dataKey": "nKfZ8KX6JTNWRzTD",
+        "dataIv": "nKfZ8KX6JTNWRzTD"
+      }
+    },
+    {
+      "name": "123 • 4K",
+      "api": "csp_PanWebShare123",
+      "size_kb": 76,
+      "source": "qist-jsm",
+      "ext": {
+        "site": [
+          "https://123panfx.com",
+          "https://pan1.me"
+        ]
+      }
+    },
+    {
+      "name": "New6V • 磁力",
+      "api": "csp_New6v",
+      "size_kb": 50,
+      "source": "qist-jsm",
+      "ext": "https://www.xb6v.com"
+    },
+    {
+      "name": "迅雷吧 • 磁力",
+      "api": "csp_Xunlei8",
+      "size_kb": 28,
+      "source": "qist-jsm",
+      "ext": "https://xunlei8.me"
+    },
+    {
+      "name": "米搜 • 搜索",
+      "api": "csp_MiSou",
+      "size_kb": 8,
+      "source": "qist-jsm",
+      "ext": {
+        "site": [
+          "https://misoso.shop",
+          "http://www.misoso.shop"
+        ]
+      }
+    },
+    {
+      "name": "厂长 • 影视",
+      "api": "csp_Czsapp",
+      "size_kb": 2,
+      "source": "qist-jsm",
+      "ext": "https://cz01.vip"
+    }
+  ],
+  "failed_list": [
+    {
+      "name": "飞宇影院",
+      "api": "csp_XBPQ",
+      "reason": "无可测试 URL"
+    },
+    {
+      "name": "奇乐影视",
+      "api": "csp_XBPQ",
+      "reason": "无可测试 URL"
+    },
+    {
+      "name": "热播 • APP",
+      "api": "csp_AppRJ",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "韩圈 • APP",
+      "api": "csp_Hxq",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "橙子 • APP",
+      "api": "csp_App99",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "剧圈 • APP",
+      "api": "csp_App99",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "双星 • APP",
+      "api": "csp_App99",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "天堂 • APP",
+      "api": "csp_AppDrama",
+      "reason": "无可测试 URL"
+    },
+    {
+      "name": "橘汁 • APP",
+      "api": "csp_AppDrama",
+      "reason": "无可测试 URL"
+    },
+    {
+      "name": "华谊 • APP",
+      "api": "csp_AppDrama",
+      "reason": "无可测试 URL"
+    },
+    {
+      "name": "苹果 • APP",
+      "api": "csp_AppDrama",
+      "reason": "无可测试 URL"
+    },
+    {
+      "name": "薯条 • APP",
+      "api": "csp_AppDrama",
+      "reason": "无可测试 URL"
+    },
+    {
+      "name": "飞飞 • APP",
+      "api": "csp_AppYsV2",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "金牌 • APP",
+      "api": "csp_AppQi",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "蓝鹰 • APP",
+      "api": "csp_AppQi",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "高清 • APP",
+      "api": "csp_AppQi",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "麻花 • APP",
+      "api": "csp_AppGet",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "茉莉 • APP",
+      "api": "csp_AppGet",
+      "reason": "太小或状态码异常"
+    },
+    {
+      "name": "哔哩 • 视频",
+      "api": "csp_BiliYS",
+      "reason": "无可测试 URL"
+    },
+    {
+      "name": "夸父 • 4K",
+      "api": "csp_PanWebShareKF",
+      "reason": "HTTPSConnectionPool(host='www.kfzys.net', port=443"
+    }
+  ]
+}

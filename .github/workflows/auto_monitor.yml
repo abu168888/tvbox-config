@@ -1,0 +1,64 @@
+name: Auto Collect & Monitor
+
+on:
+  schedule:
+    # Daily health check at 3AM Beijing time (UTC 19:00)
+    - cron: '0 19 * * *'
+    # Weekly new source collection on Sunday at 4AM Beijing time (UTC 20:00)
+    - cron: '0 20 * * 0'
+  workflow_dispatch:
+    inputs:
+      action_type:
+        description: '执行操作类型'
+        required: true
+        default: 'both'
+        type: choice
+        options:
+          - both
+          - collect_only
+          - monitor_only
+
+jobs:
+  collect-and-monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run collector (weekly or manual trigger)
+        if: github.event_name == 'schedule' && github.event.schedule == '0 20 * * 0' || github.event_name == 'workflow_dispatch' && (github.event.inputs.action_type == 'collect_only' || github.event.inputs.action_type == 'both')
+        run: python auto_collector.py
+
+      - name: Run monitor system (daily or manual trigger)
+        if: github.event_name == 'schedule' && github.event.schedule == '0 19 * * *' || github.event_name == 'workflow_dispatch' && (github.event.inputs.action_type == 'monitor_only' || github.event.inputs.action_type == 'both')
+        run: python monitor_system.py
+
+      - name: Commit and push results
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check for changes
+          git add .
+          git diff --staged --quiet || git commit -m "🤖 Auto update: $(date '+%Y-%m-%d %H:%M')"
+          
+          git push 2>&1 || echo "No changes to commit"
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-report
+          path: health_report.html
+          retention-days: 7
