@@ -145,63 +145,79 @@
       "name": "💡厂长┃不卡💡",
       "type": 3,
       "api": "csp_NewCzGuard",
+      "timeout": 10,
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
     },
     {
       "key": "Nmyswv",
       "name": "💡糯米┃秒播💡",
       "type": 3,
       "api": "csp_NmyswvGuard",
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
     },
     {
       "key": "Sbaibai",
       "name": "💡白白┃秒播💡",
       "type": 3,
       "api": "csp_SbaibaiGuard",
+      "timeout": 10,
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
     },
     {
       "key": "Jpys",
       "name": "💡文采┃秒播💡",
       "type": 3,
       "api": "csp_JpysGuard",
+      "timeout": 10,
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
     },
     {
       "key": "AppSK",
       "name": "💡神车┃秒播💡",
       "type": 3,
       "api": "csp_AppSKGuard",
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 0,
-      "changeable": 0
+      "changeable": 0,
+      "ext": "rfOX1voDIQhH8epBwtCFsq+8syyZ18T30GkibomjS1xHcE9fpWU7oKJ1cO9K0M5hrnOHZ9dKjiJz5HEyTr57RZHCqunfFT7jH/mEy+uqVyo="
     },
     {
       "key": "Libvio",
       "name": "💡立播┃秒播💡",
       "type": 3,
       "api": "csp_LibvioGuard",
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "Zxzj",
       "name": "💡在线┃秒播💡",
       "type": 3,
       "api": "csp_ZxzjGuard",
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1,
+      "ext": "https://www.zxzjhd.com/"
     },
     {
       "key": "WexHanXiaoQuan",
