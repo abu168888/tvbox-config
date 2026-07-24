@@ -1,0 +1,13 @@
+{
+  "name": "tvbox-abu-auto-maintain",
+  "version": "1.0.0",
+  "description": "阿不专属 TVBox 自动维护系统 - 每日凌晨 3 点自动检测修复失效源",
+  "main": "monitor.py",
+  "scripts": {
+    "deploy": "vercel --prod",
+    "check": "python monitor.py"
+  },
+  "keywords": ["tvbox", "auto-maintain", "abu"],
+  "author": "WinClaw for Abu",
+  "license": "MIT"
+}
