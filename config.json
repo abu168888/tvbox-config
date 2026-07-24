@@ -1,5 +1,5 @@
 {
-  "spider": "./f45313da-d63b-4484-8aa9-4a641929455b.png;md5;d2cea066e80053264949b0eec3c8719d",
+  "spider": "https://abu168888.github.io/tvbox-config/f45313da-d63b-4484-8aa9-4a641929455b.png;md5;d2cea066e80053264949b0eec3c8719d",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -12,7 +12,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/20260414181247-ae51abfbfe.txt"
+      "ext": "https://abu168888.github.io/tvbox-config/lib/20260414181247-ae51abfbfe.txt"
     },
     {
       "key": "Doubana",
@@ -23,7 +23,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/20260414181247-ae51abfbfe.txt"
+      "ext": "https://abu168888.github.io/tvbox-config/lib/20260414181247-ae51abfbfe.txt"
     },
     {
       "key": "Doubana",
@@ -34,7 +34,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/20260414181247-ae51abfbfe.txt"
+      "ext": "https://abu168888.github.io/tvbox-config/lib/20260414181247-ae51abfbfe.txt"
     },
     {
       "key": "Wexconfig",
@@ -540,7 +540,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "./lib/bilisong.txt"
+      "ext": "https://abu168888.github.io/tvbox-config/lib/bilisong.txt"
     },
     {
       "key": "bilibili",
@@ -556,7 +556,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./lib/bili001.txt"
+        "json": "https://abu168888.github.io/tvbox-config/lib/bili001.txt"
       }
     },
     {
@@ -573,7 +573,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./lib/183E562_773_xiqu_20251130182006749newMediaImage.txt"
+        "json": "https://abu168888.github.io/tvbox-config/lib/183E562_773_xiqu_20251130182006749newMediaImage.txt"
       }
     },
     {
@@ -590,7 +590,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./lib/bilisong.txt"
+        "json": "https://abu168888.github.io/tvbox-config/lib/bilisong.txt"
       }
     },
     {
@@ -606,7 +606,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+        "json": "https://abu168888.github.io/tvbox-config/lib/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
       }
     },
     {
@@ -622,7 +622,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
+        "json": "https://abu168888.github.io/tvbox-config/lib/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
       }
     },
     {
@@ -638,7 +638,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
+        "json": "https://abu168888.github.io/tvbox-config/lib/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
       }
     },
     {
@@ -654,7 +654,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./lib/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
+        "json": "https://abu168888.github.io/tvbox-config/lib/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
       }
     },
     {
@@ -1046,14 +1046,14 @@
     {
       "name": "Kimentanm",
       "type": 0,
-      "url": "./lib/iptv.m3u",
+      "url": "https://abu168888.github.io/tvbox-config/lib/iptv.m3u",
       "playerType": 2
     },
     {
       "name": "综合直播",
       "type": 0,
       "playerType": 2,
-      "url": "./lib/interface.txt",
+      "url": "https://abu168888.github.io/tvbox-config/lib/interface.txt",
       "ua": "bingcha/1.1 (mianfeifenxiang) "
     }
   ],
