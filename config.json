@@ -1,11 +1,11 @@
-{
+﻿{
   "spider": "https://abu168888.github.io/tvbox-config/spider.jar",
-  "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
+  "wallpaper": "http://阿布 TVBox.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
       "key": "NewDouBan",
-      "name": "🐮【王二小放牛娃】🐮",
+      "name": "🐮【阿不 TVBox】🐮",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -49,7 +49,7 @@
       }
     },
     {
-      "key": "二小",
+      "key": "阿不",
       "name": "💓‍指南┃4K💓‍",
       "type": 3,
       "api": "csp_NewErXiaoGuard",
