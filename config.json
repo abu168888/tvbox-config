@@ -2,69 +2,51 @@
   "wallpaper": "https://picsum.photos/1920/1080",
   "sites": [
     {
-      "key": "csp_360",
-      "name": "🎬360影视",
+      "key": "360",
+      "name": "✅360┃资源",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["爽文短剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "NBA", "台湾剧", "纪录片", "古装片", "悬疑片", "犯罪片"]
+      "categories": ["爽文短剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "NBA", "台湾剧", "纪录片"]
     },
     {
-      "key": "csp_hnzy",
-      "name": "🎬红牛影视",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_lzzy",
-      "name": "🎬量子影视",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "key": "量子",
+      "name": "✅量子┃影视",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["短剧", "国产剧", "日韩剧", "港台剧", "欧美剧", "泰国剧", "国产动漫", "日韩动漫", "国内综艺", "海外综艺", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片"]
+      "ads": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
     },
     {
-      "key": "csp_ffzy",
-      "name": "🎬非凡影视",
+      "key": "非凡",
+      "name": "✅非凡┃影视",
       "type": 1,
       "api": "http://cj.ffzyapi.com//api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["短剧", "动作片", "喜剧片", "科幻片", "恐怖片", "爱情片", "剧情片", "战争片", "国产剧", "欧美剧", "香港剧", "韩国剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "国产动漫", "日韩动漫", "欧美动漫", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]
+      "categories": ["短剧", "动作片", "喜剧片", "科幻片", "恐怖片", "爱情片", "剧情片", "战争片", "国产剧", "欧美剧", "香港剧", "韩国剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "动漫", "综艺"]
     },
     {
-      "key": "csp_snzy",
-      "name": "🎬索尼影视",
+      "key": "索尼",
+      "name": "✅索尼┃影视",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧", "海外剧", "纪录片", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "动画片", "港台动漫", "海外动漫", "演唱会", "体育赛事", "篮球", "足球", "预告片", "斯诺克", "影视解说"]
-    },
-    {
-      "key": "csp_ku",
-      "name": "🎬酷云影视",
-      "type": 1,
-      "api": "https://api.kuwoapi.com/api/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧", "纪录片", "综艺", "动漫"]
     }
   ],
   "lives": [
     {
-      "name": "聚合直播",
+      "name": "直播测试",
       "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m3u/general.m3u8",
       "ua": "okhttp/3.15"
     }
   ],
