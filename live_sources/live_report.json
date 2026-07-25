@@ -1,0 +1,20 @@
+{
+  "source": "lysvc.cc",
+  "source_name": "2026-07-25更新595个全球直播源m3u – 涵盖港澳台/欧美/日韩，支持m3u转txt",
+  "date": "2026-07-25",
+  "total_channels": 149,
+  "total_groups": 8,
+  "groups": [
+    "国内频道",
+    "Argentina",
+    "Afghanistan",
+    "中国港澳台【有梯更好】",
+    "Algeria",
+    "Andorra",
+    "Albania",
+    "Angola"
+  ],
+  "txt_file": "C:\\Users\\Administrator\\AppData\\Roaming\\winclaw\\.openclaw\\workspace\\tvbox-abu-new\\live_sources\\live_sources.txt",
+  "m3u_file": "C:\\Users\\Administrator\\AppData\\Roaming\\winclaw\\.openclaw\\workspace\\tvbox-abu-new\\live_sources\\live_source.m3u",
+  "success": true
+}

@@ -1,0 +1,448 @@
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml,https://epg.pw/xmltv/epg.xml"
+#EXTINF:-1 group-title="国内频道",熊猫频道1
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%86%8A%E7%8C%AB%E9%A2%91%E9%81%931&t=1784879837&token=e80ff8e26b92cbfdf4ec5ba59f1ca507
+
+#EXTINF:-1 group-title="国内频道",EBS少儿
+https://sys.lysvc.cc/iptv_test/main.php?id=EBS%E5%B0%91%E5%84%BF&t=1784879837&token=298bb6ef12af01cf57069c1392665f8c
+
+#EXTINF:-1 group-title="国内频道",雅安新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E9%9B%85%E5%AE%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=10932ad3551bcf9a069726b5006a1b6c
+
+#EXTINF:-1 group-title="国内频道",CCTV-世界地理
+https://sys.lysvc.cc/iptv_test/main.php?id=CCTV-%E4%B8%96%E7%95%8C%E5%9C%B0%E7%90%86&t=1784879837&token=42061f9ced614b015c7b7169ef61530a
+
+#EXTINF:-1 group-title="国内频道",熊猫频道5
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%86%8A%E7%8C%AB%E9%A2%91%E9%81%935&t=1784879837&token=b1c615eac2250102d4d087efda0c5315
+
+#EXTINF:-1 group-title="Argentina",Canal 7 Neuquén (1080p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Canal+7+Neuqu%C3%A9n+%281080p%29&t=1784879837&token=fbe848a61ee967b0a105368262aa3e8d
+
+#EXTINF:-1 group-title="Afghanistan",Tolo TV
+https://sys.lysvc.cc/iptv_test/main.php?id=Tolo+TV&t=1784879837&token=a1e929eef2d16ae0d058dae2114d1420
+
+#EXTINF:-1 group-title="国内频道",河源公共1
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B2%B3%E6%BA%90%E5%85%AC%E5%85%B11&t=1784879837&token=60b4be58f81bb3b6e86fffc60e2e7a86
+
+#EXTINF:-1 group-title="国内频道",东方卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86&t=1784879837&token=b62603ed2b2449f3ca57ea5317f223f4
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",东森超视-HD
+rtmp://f13h.mine.nu/sat/tv331
+
+#EXTINF:-1 group-title="国内频道",CJB
+https://sys.lysvc.cc/iptv_test/main.php?id=CJB&t=1784879837&token=291136af7c8604f9e46bf46e07c8be4e
+
+#EXTINF:-1 group-title="国内频道",福建旅游
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%A6%8F%E5%BB%BA%E6%97%85%E6%B8%B8&t=1784879837&token=0b087a0c1249f173d98b1aa0cb1d6857
+
+#EXTINF:-1 group-title="国内频道",陕西秦腔频道
+https://sys.lysvc.cc/iptv_test/main.php?id=%E9%99%95%E8%A5%BF%E7%A7%A6%E8%85%94%E9%A2%91%E9%81%93&t=1784879837&token=51392895ecd1084a4f0713890537f8c8
+
+#EXTINF:-1 group-title="国内频道",新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=22e308821da068212e97470a35032fd3
+
+#EXTINF:-1 group-title="国内频道",天津新闻
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%A4%A9%E6%B4%A5%E6%96%B0%E9%97%BB&t=1784879837&token=9bc8dcb75db306befc4855c5f7a2f227
+
+#EXTINF:-1 group-title="Argentina",AMC Latin America (1080p)
+https://sys.lysvc.cc/iptv_test/main.php?id=AMC+Latin+America+%281080p%29&t=1784879837&token=29b4e85f7a32d41e1699f6b1e5d4bbb3
+
+#EXTINF:-1 group-title="国内频道",湖南卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86&t=1784879837&token=5f768219dbbdcc5df50f7eb2da1365d6
+
+#EXTINF:-1 group-title="国内频道",盐城新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%9B%90%E5%9F%8E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=2d487233be656078d416d876998f27ef
+
+#EXTINF:-1 group-title="国内频道",海南卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86&t=1784879837&token=c3bd7b1d02dc5581e848fb13a407297c
+
+#EXTINF:-1 group-title="国内频道",江苏教育
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B1%9F%E8%8B%8F%E6%95%99%E8%82%B2&t=1784879837&token=edb3662c4649fa3824d7c69dafc92835
+
+#EXTINF:-1 group-title="国内频道",江苏城市频道
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B1%9F%E8%8B%8F%E5%9F%8E%E5%B8%82%E9%A2%91%E9%81%93&t=1784879837&token=87e15ebb7394bdc5819bbfc2ff6f05e3
+
+#EXTINF:-1 group-title="国内频道",国学频道
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%9B%BD%E5%AD%A6%E9%A2%91%E9%81%93&t=1784879837&token=800f5e67dd84d2a8774ebfeaf3d37ec7
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",CH8
+https://sys.lysvc.cc/iptv_test/main.php?id=CH8&t=1784879837&token=cdae3cfb0e0bcb35c3653203adbc8f47
+
+#EXTINF:-1 group-title="国内频道",中国教育3
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B23&t=1784879837&token=b1956f99fb292e740ba0c6fe17e74786
+
+#EXTINF:-1 group-title="国内频道",上视东方影视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%8A%E8%A7%86%E4%B8%9C%E6%96%B9%E5%BD%B1%E8%A7%86&t=1784879837&token=980f8d0cb2af891fddc9347d4236fbf6
+
+#EXTINF:-1 group-title="Argentina",Canal 5 Del Pueblo [Not 24/7]
+https://sys.lysvc.cc/iptv_test/main.php?id=Canal+5+Del+Pueblo+%5BNot+24%2F7%5D&t=1784879837&token=22a5fa0ddfaa93806326f11c864c7e68
+
+#EXTINF:-1 group-title="国内频道",绍兴综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%BB%8D%E5%85%B4%E7%BB%BC%E5%90%88&t=1784879837&token=ed7dfc27d05784731bb67c5d18c8f6be
+
+#EXTINF:-1 group-title="Argentina",Canal 3 Las Heras (720p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Canal+3+Las+Heras+%28720p%29&t=1784879837&token=2bb1cf4dc8b76210ea73938eb279c4cb
+
+#EXTINF:-1 group-title="Algeria",TV2 (1080p)
+https://sys.lysvc.cc/iptv_test/main.php?id=TV2+%281080p%29&t=1784879837&token=518169e6ed0b197a03563c7d603ea3d7
+
+#EXTINF:-1 group-title="国内频道",哈尔滨娱乐
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%93%88%E5%B0%94%E6%BB%A8%E5%A8%B1%E4%B9%90&t=1784879837&token=6666e5906c6e23d46cb4b3a08015b57a
+
+#EXTINF:-1 group-title="国内频道",熊猫频道4
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%86%8A%E7%8C%AB%E9%A2%91%E9%81%934&t=1784879837&token=f6f1c4da45bc2ee0209ba3caa3671750
+
+#EXTINF:-1 group-title="国内频道",天津体育
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%A4%A9%E6%B4%A5%E4%BD%93%E8%82%B2&t=1784879837&token=b59289f2eac5857689189b3a91886c0e
+
+#EXTINF:-1 group-title="国内频道",MBC Mokpo (목포 MBC) (720p) [Not 24/7]
+https://sys.lysvc.cc/iptv_test/main.php?id=MBC+Mokpo+%28%EB%AA%A9%ED%8F%AC+MBC%29+%28720p%29+%5BNot+24%2F7%5D&t=1784879837&token=82706a02c70884b7185099922d61ea1b
+
+#EXTINF:-1 group-title="Andorra",Andorra TV (1080p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Andorra+TV+%281080p%29&t=1784879837&token=51d3fc6c2654c349d39216cf60a17655
+
+#EXTINF:-1 group-title="国内频道",固镇新闻
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%9B%BA%E9%95%87%E6%96%B0%E9%97%BB&t=1784879837&token=7874d3ae0330e3ba9c51b9653528f02a
+
+#EXTINF:-1 group-title="国内频道",邢台综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E9%82%A2%E5%8F%B0%E7%BB%BC%E5%90%88&t=1784879837&token=85ff0137a12de7cdc7223f319d3e25c5
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",My Cinema Europe
+https://sys.lysvc.cc/iptv_test/main.php?id=My+Cinema+Europe&t=1784879837&token=acc2a8102aec2fe4e2b5631a857357f3
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",纬来育乐-HD
+rtmp://f13h.mine.nu/sat/tv701
+
+#EXTINF:-1 group-title="国内频道",重庆卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86&t=1784879837&token=5fcbb2b7e5fbf196cedfe2eee3a0898e
+
+#EXTINF:-1 group-title="国内频道",海宁新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B5%B7%E5%AE%81%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=b9fb828f4084e7a2e8768c15d5c75fae
+
+#EXTINF:-1 group-title="国内频道",河北卫视HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86HD&t=1784879837&token=b61cb85512dd0e3c8fa7820da73aec86
+
+#EXTINF:-1 group-title="国内频道",云南卫视HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86HD&t=1784879837&token=bc05e34a25116e4ffa7811f6b78f640d
+
+#EXTINF:-1 group-title="国内频道",中国教育2
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B22&t=1784879837&token=63bac0bd5218aa3da1d6d389abc4eff9
+
+#EXTINF:-1 group-title="国内频道",吉林卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86&t=1784879837&token=7f85c0fb9e30864f7f8b5ef05079180d
+
+#EXTINF:-1 group-title="国内频道",平泉综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B9%B3%E6%B3%89%E7%BB%BC%E5%90%88&t=1784879837&token=ed249f8b151ba05c52a27519cea440c7
+
+#EXTINF:-1 group-title="国内频道",广西都市
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B9%BF%E8%A5%BF%E9%83%BD%E5%B8%82&t=1784879837&token=63f16ed1fe89113012c7c778f8b3eafe
+
+#EXTINF:-1 group-title="国内频道",体育赛事-03
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%BD%93%E8%82%B2%E8%B5%9B%E4%BA%8B-03&t=1784879837&token=32b73422368d73aa96d66d14165ace28
+
+#EXTINF:-1 group-title="国内频道",定襄综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%AE%9A%E8%A5%84%E7%BB%BC%E5%90%88&t=1784879837&token=8db77c1c8e1502810bca736c3740d9ac
+
+#EXTINF:-1 group-title="国内频道",CCTV5+
+https://sys.lysvc.cc/iptv_test/main.php?id=CCTV5%2B&t=1784879837&token=11251aa5fbdcbd61902ebb4316bba0ed
+
+#EXTINF:-1 group-title="国内频道",山西卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86&t=1784879837&token=27b9d83ac53e262c24d4c7043cf780c5
+
+#EXTINF:-1 group-title="Albania",TV 7 Albania
+https://sys.lysvc.cc/iptv_test/main.php?id=TV+7+Albania&t=1784879837&token=518c5af365eebfd878bf354b8839e43d
+
+#EXTINF:-1 group-title="国内频道",广州电视台综合频道
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B9%BF%E5%B7%9E%E7%94%B5%E8%A7%86%E5%8F%B0%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93&t=1784879837&token=302731c639856327b9e0dbb97b357348
+
+#EXTINF:-1 group-title="国内频道",黑龙江卫视HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86HD&t=1784879837&token=aab6ccdc90586a3a7ddeb03bfdd8a0e8
+
+#EXTINF:-1 group-title="国内频道",滨海新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%BB%A8%E6%B5%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=f87cabd7c2060b452a730108c6be8645
+
+#EXTINF:-1 group-title="国内频道",太谷新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%A4%AA%E8%B0%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=2588a4f5b83037b7f5021e62d85551b5
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",人间卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%BA%BA%E9%97%B4%E5%8D%AB%E8%A7%86&t=1784879837&token=92866cb36d614132dd0cfb18e7c8beb8
+
+#EXTINF:-1 group-title="国内频道",南京新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%8D%97%E4%BA%AC%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=8008eb751845bbcefa3391a0a2de77ed
+
+#EXTINF:-1 group-title="国内频道",EBS2
+https://sys.lysvc.cc/iptv_test/main.php?id=EBS2&t=1784879837&token=840c338de104256e60f01c801c26a1be
+
+#EXTINF:-1 group-title="国内频道",大湾区卫视(国际版)
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%A4%A7%E6%B9%BE%E5%8C%BA%E5%8D%AB%E8%A7%86%28%E5%9B%BD%E9%99%85%E7%89%88%29&t=1784879837&token=88f44e98c49a19e9a31fcf919db5d76e
+
+#EXTINF:-1 group-title="国内频道",TELEANTIOQUIA HD COLOMBIA
+https://sys.lysvc.cc/iptv_test/main.php?id=TELEANTIOQUIA+HD+COLOMBIA&t=1784879837&token=bbeacd9033adc561fcbd8de7956f8e3e
+
+#EXTINF:-1 group-title="国内频道",CPBC
+https://sys.lysvc.cc/iptv_test/main.php?id=CPBC&t=1784879837&token=7043bad6f3f3975dfc4239356cb4ddf3
+
+#EXTINF:-1 group-title="Argentina",Canal 2 de Ushuaia (1080p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Canal+2+de+Ushuaia+%281080p%29&t=1784879837&token=29102b7ae418ccf42fe8e3796d1a51bd
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",凤凰卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86&t=1784879837&token=f9f8870a296cb502b2d26aeea4325adf
+
+#EXTINF:-1 group-title="国内频道",SEÑAL COLOMBIA HD
+https://sys.lysvc.cc/iptv_test/main.php?id=SE%C3%91AL+COLOMBIA+HD&t=1784879837&token=1ea4dc387a3e325888ece9749b63caec
+
+#EXTINF:-1 group-title="国内频道",宜兴新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%AE%9C%E5%85%B4%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=9d2a2a8aba6f7f5d22a251ca4342dd00
+
+#EXTINF:-1 group-title="国内频道",Shopping NT (720p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Shopping+NT+%28720p%29&t=1784879837&token=6015b50f0f4b1ea232d0b6a7de3729a1
+
+#EXTINF:-1 group-title="国内频道",河南都市
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B2%B3%E5%8D%97%E9%83%BD%E5%B8%82&t=1784879837&token=e0c605bbdf50a09a79afcee6215a39c9
+
+#EXTINF:-1 group-title="国内频道",海南广播电视总台自贸频道
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B5%B7%E5%8D%97%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E6%80%BB%E5%8F%B0%E8%87%AA%E8%B4%B8%E9%A2%91%E9%81%93&t=1784879837&token=3fbd16c58ebb6e390b5538541d973d76
+
+#EXTINF:-1 group-title="国内频道",陕西都市青春
+https://sys.lysvc.cc/iptv_test/main.php?id=%E9%99%95%E8%A5%BF%E9%83%BD%E5%B8%82%E9%9D%92%E6%98%A5&t=1784879837&token=674ec86c881b238b0ffdfaf4347aa4f8
+
+#EXTINF:-1 group-title="国内频道",SBS CJB (540p) [Not 24/7]
+https://sys.lysvc.cc/iptv_test/main.php?id=SBS+CJB+%28540p%29+%5BNot+24%2F7%5D&t=1784879837&token=1ee6e5b22705c00847d28e44f8787dbc
+
+#EXTINF:-1 group-title="Argentina",Canal 9 Resistencia (720p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Canal+9+Resistencia+%28720p%29&t=1784879837&token=376a3a158eee1c2cd5f11da0d39a5c5b
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",NOW星影台
+https://sys.lysvc.cc/iptv_test/main.php?id=NOW%E6%98%9F%E5%BD%B1%E5%8F%B0&t=1784879837&token=08b179585ff624e112e6b6b14ff69def
+
+#EXTINF:-1 group-title="国内频道",吉林卫视HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86HD&t=1784879837&token=2c8abc1c89619f4e75094d99ee35bd3c
+
+#EXTINF:-1 group-title="Algeria",Amou Yazid TV (576p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Amou+Yazid+TV+%28576p%29&t=1784879837&token=26d31b7cdef1a5f4cc4c144cc4a7013d
+
+#EXTINF:-1 group-title="国内频道",和美乡途轮播台
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%92%8C%E7%BE%8E%E4%B9%A1%E9%80%94%E8%BD%AE%E6%92%AD%E5%8F%B0&t=1784879837&token=da4c86eb1a9065d74cb9b8e5f0160b05
+
+#EXTINF:-1 group-title="国内频道",老故事
+https://sys.lysvc.cc/iptv_test/main.php?id=%E8%80%81%E6%95%85%E4%BA%8B&t=1784879837&token=9bb30448a3fda3567b2c7bb149ecca3d
+
+#EXTINF:-1 group-title="国内频道",荥经综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E8%8D%A5%E7%BB%8F%E7%BB%BC%E5%90%88&t=1784879837&token=950e114031b1f302993eb92c605fd440
+
+#EXTINF:-1 group-title="国内频道",新动力量创一流
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%96%B0%E5%8A%A8%E5%8A%9B%E9%87%8F%E5%88%9B%E4%B8%80%E6%B5%81&t=1784879837&token=100465d96f7b58f62d1bba29db179c56
+
+#EXTINF:-1 group-title="国内频道",湖北卫视HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86HD&t=1784879837&token=b3cee4fcdee6cec2ab2757ac8218f995
+
+#EXTINF:-1 group-title="国内频道",中央新影-发现之旅
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%AD%E5%A4%AE%E6%96%B0%E5%BD%B1-%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85&t=1784879837&token=bf0f5cf75664ad16d8dd5f181959ce47
+
+#EXTINF:-1 group-title="国内频道",BBS
+https://sys.lysvc.cc/iptv_test/main.php?id=BBS&t=1784879837&token=91c78058049d3a6eec3e17fbac49ece5
+
+#EXTINF:-1 group-title="国内频道",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]
+https://sys.lysvc.cc/iptv_test/main.php?id=MBC+Chuncheon+%28%EC%B6%98%EC%B2%9C+MBC%29+%28480p%29+%5BNot+24%2F7%5D&t=1784879837&token=45b97dea900fa28a043395fd06c38a04
+
+#EXTINF:-1 group-title="国内频道",DISNEY CHANELL HD
+https://sys.lysvc.cc/iptv_test/main.php?id=DISNEY+CHANELL+HD&t=1784879837&token=3d0244c5030796c5d783908d1b2d1383
+
+#EXTINF:-1 group-title="国内频道",上海都市
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%8A%E6%B5%B7%E9%83%BD%E5%B8%82&t=1784879837&token=af9a1be095043f59c578004f5d0acc5d
+
+#EXTINF:-1 group-title="国内频道",名山综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%90%8D%E5%B1%B1%E7%BB%BC%E5%90%88&t=1784879837&token=c885c77e635e2348ade1bce8024da3dc
+
+#EXTINF:-1 group-title="国内频道",东莞生活资讯
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%9C%E8%8E%9E%E7%94%9F%E6%B4%BB%E8%B5%84%E8%AE%AF&t=1784879837&token=4a98e246b16f0af5bd6d24129a5b9c60
+
+#EXTINF:-1 group-title="国内频道",无锡生活
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%97%A0%E9%94%A1%E7%94%9F%E6%B4%BB&t=1784879837&token=4af32bf270772114d411c00c64dcd55b
+
+#EXTINF:-1 group-title="国内频道",武术世界
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%AD%A6%E6%9C%AF%E4%B8%96%E7%95%8C&t=1784879837&token=1a80b8b20760c9c7e2a68010a0bb5997
+
+#EXTINF:-1 group-title="国内频道",天津教育
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%A4%A9%E6%B4%A5%E6%95%99%E8%82%B2&t=1784879837&token=9acfe8bd915a9cd9f612f363d3bb64c0
+
+#EXTINF:-1 group-title="国内频道",绍兴文化
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%BB%8D%E5%85%B4%E6%96%87%E5%8C%96&t=1784879837&token=563c43ed769c90291b1673e666f96950
+
+#EXTINF:-1 group-title="国内频道",延边卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%BB%B6%E8%BE%B9%E5%8D%AB%E8%A7%86&t=1784879837&token=736fb75b2c48d1b4bfdd0bf724befb3b
+
+#EXTINF:-1 group-title="国内频道",CHC动作电影
+https://sys.lysvc.cc/iptv_test/main.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1&t=1784879837&token=945f9ade887dba6c4bd6b9269cd465c1
+
+#EXTINF:-1 group-title="国内频道",平泉影视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B9%B3%E6%B3%89%E5%BD%B1%E8%A7%86&t=1784879837&token=c1859c4500d749eebff629080df00e39
+
+#EXTINF:-1 group-title="国内频道",JTV
+https://sys.lysvc.cc/iptv_test/main.php?id=JTV&t=1784879837&token=c4764699c62b3774ff7a70d8cd3cbb6b
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",华丽翡翠台(硬字幕)
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B0%28%E7%A1%AC%E5%AD%97%E5%B9%95%29&t=1784879837&token=86339eaa4f238a56e2a85e581cfc721c
+
+#EXTINF:-1 group-title="国内频道",新片放映厅
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%96%B0%E7%89%87%E6%94%BE%E6%98%A0%E5%8E%85&t=1784879837&token=d5cea186494ebe66c6956f58d686b6c5
+
+#EXTINF:-1 group-title="国内频道",Gugbang TV (1080p) [Not 24/7]
+https://sys.lysvc.cc/iptv_test/main.php?id=Gugbang+TV+%281080p%29+%5BNot+24%2F7%5D&t=1784879837&token=ec2963fe64958205d5bc9d84d5006241
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",纬来体育-HD
+rtmp://f13h.mine.nu/sat/tv721
+
+#EXTINF:-1 group-title="国内频道",CETV2
+https://sys.lysvc.cc/iptv_test/main.php?id=CETV2&t=1784879837&token=612e3bef94ccfd79b5749d7ea6ba7579
+
+#EXTINF:-1 group-title="Angola",KK TV Angola (1080p)
+https://sys.lysvc.cc/iptv_test/main.php?id=KK+TV+Angola+%281080p%29&t=1784879837&token=7754a827881baba86eae021eedb59c8a
+
+#EXTINF:-1 group-title="国内频道",广西影视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B9%BF%E8%A5%BF%E5%BD%B1%E8%A7%86&t=1784879837&token=59655d34cf58e7f8de833fc4c90fe76f
+
+#EXTINF:-1 group-title="国内频道",CCTV-央视台球
+https://sys.lysvc.cc/iptv_test/main.php?id=CCTV-%E5%A4%AE%E8%A7%86%E5%8F%B0%E7%90%83&t=1784879837&token=c04424dd3fbbd40284733c48f9e5fc81
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",民视影剧台
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B0%91%E8%A7%86%E5%BD%B1%E5%89%A7%E5%8F%B0&t=1784879837&token=9e9898d2108cac5c70f2becb61a9a280
+
+#EXTINF:-1 group-title="国内频道",江苏卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86&t=1784879837&token=49a0011c222e8a2b09545984bfec9536
+
+#EXTINF:-1 group-title="国内频道",中学生
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%AD%E5%AD%A6%E7%94%9F&t=1784879837&token=e3e2bd47dabdd60e10e3760f77c1f700
+
+#EXTINF:-1 group-title="国内频道",上海新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%8A%E6%B5%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=f0f5e02dd988764b8c27b724336beced
+
+#EXTINF:-1 group-title="国内频道",中华特产
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%AD%E5%8D%8E%E7%89%B9%E4%BA%A7&t=1784879837&token=33b2edb11e81b7ecdcf6b89cb9088bca
+
+#EXTINF:-1 group-title="国内频道",成龙电影
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%88%90%E9%BE%99%E7%94%B5%E5%BD%B1&t=1784879837&token=45b5bbd640d4fc6907f2a42acc8f2dff
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",凤凰资讯
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF&t=1784879837&token=1c302b22009b92f21b27a37d95f2bfc1
+
+#EXTINF:-1 group-title="国内频道",天元围棋
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%A4%A9%E5%85%83%E5%9B%B4%E6%A3%8B&t=1784879837&token=8867ddb87fdfacedd0aea161f54308a4
+
+#EXTINF:-1 group-title="国内频道",上海第一财经
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%8A%E6%B5%B7%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F&t=1784879837&token=c8d2482d84b86a9690ade006f8c0cf23
+
+#EXTINF:-1 group-title="国内频道",SBS JTV (406p) [Not 24/7]
+https://sys.lysvc.cc/iptv_test/main.php?id=SBS+JTV+%28406p%29+%5BNot+24%2F7%5D&t=1784879837&token=0cd2e7787cd73586b61dcc4ac375c7d7
+
+#EXTINF:-1 group-title="国内频道",MBC Jeju (제주 MBC) (352p) [Not 24/7]
+https://sys.lysvc.cc/iptv_test/main.php?id=MBC+Jeju+%28%EC%A0%9C%EC%A3%BC+MBC%29+%28352p%29+%5BNot+24%2F7%5D&t=1784879837&token=9d549c10836215724ee14cf06f174f45
+
+#EXTINF:-1 group-title="国内频道",广东少儿高清
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B9%BF%E4%B8%9C%E5%B0%91%E5%84%BF%E9%AB%98%E6%B8%85&t=1784879837&token=5448587949ab845fa22d8ebf13b43a48
+
+#EXTINF:-1 group-title="Argentina",ABTV Bariloche
+https://sys.lysvc.cc/iptv_test/main.php?id=ABTV+Bariloche&t=1784879837&token=c2a1aafab461bd975b5eb9787621e5f1
+
+#EXTINF:-1 group-title="Argentina",AXN Latin America South
+https://sys.lysvc.cc/iptv_test/main.php?id=AXN+Latin+America+South&t=1784879837&token=ffb879e01563b1adf4bfeb72133e8913
+
+#EXTINF:-1 group-title="国内频道",宁夏卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86&t=1784879837&token=9ede2ca34f86078761e9b0ab179e2cad
+
+#EXTINF:-1 group-title="国内频道",CCTV11
+https://sys.lysvc.cc/iptv_test/main.php?id=CCTV11&t=1784879837&token=0539bc1d48d9a731e6ab74a516c72c6c
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",amc电影台
+https://sys.lysvc.cc/iptv_test/main.php?id=amc%E7%94%B5%E5%BD%B1%E5%8F%B0&t=1784879837&token=fdd912867bee86191a5ab7d166dd4455
+
+#EXTINF:-1 group-title="Afghanistan",ABN Afghanistan (540p)
+https://sys.lysvc.cc/iptv_test/main.php?id=ABN+Afghanistan+%28540p%29&t=1784879837&token=d5baeca28862528d9553673ad75768ca
+
+#EXTINF:-1 group-title="国内频道",河北农民
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B2%B3%E5%8C%97%E5%86%9C%E6%B0%91&t=1784879837&token=ebc8b7d18ef3bcd792a02029ba75afdb
+
+#EXTINF:-1 group-title="国内频道",哈哈炫动HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%93%88%E5%93%88%E7%82%AB%E5%8A%A8HD&t=1784879837&token=137ac2925d291dc6885ef551ffc38be8
+
+#EXTINF:-1 group-title="国内频道",承德公共
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%89%BF%E5%BE%B7%E5%85%AC%E5%85%B1&t=1784879837&token=b5183a3fdcf31d08a6f1ffde65432774
+
+#EXTINF:-1 group-title="国内频道",岭南戏曲
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B2%AD%E5%8D%97%E6%88%8F%E6%9B%B2&t=1784879837&token=32ec6f1832705d7477968da16a1e1839
+
+#EXTINF:-1 group-title="国内频道",无锡都市资讯
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%97%A0%E9%94%A1%E9%83%BD%E5%B8%82%E8%B5%84%E8%AE%AF&t=1784879837&token=aaf6553fb565a9a5457bc7403bf25f29
+
+#EXTINF:-1 group-title="国内频道",东方卫视HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86HD&t=1784879837&token=e11f5e5027934b3c5169f5b0ea275e7e
+
+#EXTINF:-1 group-title="国内频道",旺苍新闻综合
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%97%BA%E8%8B%8D%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&t=1784879837&token=c6242833bef3433f28357131978bd460
+
+#EXTINF:-1 group-title="国内频道",梨园
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%A2%A8%E5%9B%AD&t=1784879837&token=6d6bfed55681bed36a9d77b22c850e22
+
+#EXTINF:-1 group-title="国内频道",东方影视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%9C%E6%96%B9%E5%BD%B1%E8%A7%86&t=1784879837&token=102c15ace67b1d9b73807f0f1a8b03bc
+
+#EXTINF:-1 group-title="Argentina",Canal 3 Pinamar
+https://sys.lysvc.cc/iptv_test/main.php?id=Canal+3+Pinamar&t=1784879837&token=fcfbb6b37d0fe2951a8bdaa56549d950
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",凤凰中文
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87&t=1784879837&token=5a5e4f090bd2a230072b2c6948dcfc1e
+
+#EXTINF:-1 group-title="国内频道",广东新闻
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B9%BF%E4%B8%9C%E6%96%B0%E9%97%BB&t=1784879837&token=e6397b74a0cb5dc9d5e2b2fc3440269c
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",东森洋片
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%B8%9C%E6%A3%AE%E6%B4%8B%E7%89%87&t=1784879837&token=9a380127a3a59f0830ea100c1a17af1c
+
+#EXTINF:-1 group-title="国内频道",熊猫频道6
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%86%8A%E7%8C%AB%E9%A2%91%E9%81%936&t=1784879837&token=1c97e4c180bbf6e3a6a4f52e0d35948e
+
+#EXTINF:-1 group-title="国内频道",体育休闲频道
+https://sys.lysvc.cc/iptv_test/main.php?id=%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93&t=1784879837&token=fd72a8b3b9932c4ff5b2a8b3a8692017
+
+#EXTINF:-1 group-title="国内频道",CGTN法语
+https://sys.lysvc.cc/iptv_test/main.php?id=CGTN%E6%B3%95%E8%AF%AD&t=1784879837&token=a95eb0ea56ceab6a385c2a0f3c8fe82e
+
+#EXTINF:-1 group-title="国内频道",CARACOL HD COLOMBIA
+https://sys.lysvc.cc/iptv_test/main.php?id=CARACOL+HD+COLOMBIA&t=1784879837&token=dd5c8df7e353acf3e05e1cc9b5214bcb
+
+#EXTINF:-1 group-title="Argentina",Canal 7 Jujuy
+https://sys.lysvc.cc/iptv_test/main.php?id=Canal+7+Jujuy&t=1784879837&token=85c331ed4ac95aca03eeeeb6629134a5
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",面包台
+https://sys.lysvc.cc/iptv_test/main.php?id=%E9%9D%A2%E5%8C%85%E5%8F%B0&t=1784879837&token=cf8aab91004cfe57f79412c15de093bd
+
+#EXTINF:-1 group-title="Albania",Syri (720p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Syri+%28720p%29&t=1784879837&token=06fa620a7bb048fcf443f47ef4194e1d
+
+#EXTINF:-1 group-title="国内频道",山西卫视HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86HD&t=1784879837&token=a97c637eef5d4821f8877f14d881ea2e
+
+#EXTINF:-1 group-title="中国港澳台【有梯更好】",經典迪士尼-FastTV飛速看
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%B6%93%E5%85%B8%E8%BF%AA%E5%A3%AB%E5%B0%BC-FastTV%E9%A3%9B%E9%80%9F%E7%9C%8B&t=1784879837&token=12992b244cdcff1fe574b240b7105a9a
+
+#EXTINF:-1 group-title="国内频道",熊猫频道10
+https://sys.lysvc.cc/iptv_test/main.php?id=%E7%86%8A%E7%8C%AB%E9%A2%91%E9%81%9310&t=1784879837&token=9c55f2cd4aaf6a863191b3f12ebb5b10
+
+#EXTINF:-1 group-title="国内频道",江西卫视
+https://sys.lysvc.cc/iptv_test/main.php?id=%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86&t=1784879837&token=04fb691b90afd1ba64b8a33604658f00
+
+#EXTINF:-1 group-title="Argentina",Canal 3 Formosa
+https://sys.lysvc.cc/iptv_test/main.php?id=Canal+3+Formosa&t=1784879837&token=ed4633e84c90cef4919a5101910cb6f6
+
+#EXTINF:-1 group-title="国内频道",CCTV-电视指南
+https://sys.lysvc.cc/iptv_test/main.php?id=CCTV-%E7%94%B5%E8%A7%86%E6%8C%87%E5%8D%97&t=1784879837&token=53247624bc9552777403c82f1f46b1c8
+
+#EXTINF:-1 group-title="Afghanistan",Kayhan TV (720p)
+https://sys.lysvc.cc/iptv_test/main.php?id=Kayhan+TV+%28720p%29&t=1784879837&token=b37d3e5a003004ca997bff215989ffb5
+
+#EXTINF:-1 group-title="国内频道",邵氏电影
+https://sys.lysvc.cc/iptv_test/main.php?id=%E9%82%B5%E6%B0%8F%E7%94%B5%E5%BD%B1&t=1784879837&token=7928284a1f1331748abfd80eb8d3f8d7
+
+#EXTINF:-1 group-title="国内频道",贵州卫视HD
+https://sys.lysvc.cc/iptv_test/main.php?id=%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86HD&t=1784879837&token=482cb84690a377521bf604f2ac27580f
+
