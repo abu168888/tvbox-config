@@ -574,6 +574,78 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
+    },
+    {
+      "key": "Auto_Bili",
+      "name": "秒播┃Bili",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_Emby",
+      "name": "秒播┃Emby 影音",
+      "type": 3,
+      "api": "csp_EmbyGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_LiveBiLi",
+      "name": "秒播┃直播 B 站",
+      "type": 3,
+      "api": "csp_LiveBiLiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_LiveDouYu",
+      "name": "秒播┃LiveDouYu",
+      "type": 3,
+      "api": "csp_LiveDouYuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_LiveHuYa",
+      "name": "秒播┃LiveHuYa",
+      "type": 3,
+      "api": "csp_LiveHuYaGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_So97So",
+      "name": "秒播┃九七搜索",
+      "type": 3,
+      "api": "csp_So97SoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_SoHaiYin",
+      "name": "秒播┃海音影视",
+      "type": 3,
+      "api": "csp_SoHaiYinGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_AnimeMiaoWu",
+      "name": "秒播┃动漫喵屋",
+      "type": 3,
+      "api": "csp_AnimeMiaoWuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     }
   ],
   "doh": [
