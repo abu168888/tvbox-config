@@ -556,134 +556,151 @@
       "changeable": 0
     },
     {
-      "key": "LiveNew",
-      "name": "📡全球直播📡",
+      "key": "zxzj",
+      "name": "在线影视",
       "type": 3,
-      "api": "csp_Yj1211",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 60
-    },
-    {
-      "key": "Bdys",
-      "name": "哔滴影视",
-      "type": 3,
-      "api": "csp_Bdys01",
+      "api": "csp_Zxzj",
+      "timeout": 10,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
       "changeable": 1,
-      "timeout": 30
+      "ext": "https://www.zxzjhd.com/"
     },
     {
-      "key": "NanGua",
-      "name": "南瓜影视",
+      "key": "厂长",
+      "name": "厂长影视",
       "type": 3,
-      "api": "csp_NanGua",
+      "api": "csp_NewCz",
+      "timeout": 10,
+      "playerType": 2,
       "searchable": 1,
-      "changeable": 1,
-      "timeout": 30
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
-      "key": "Kuaikan",
+      "key": "低端",
+      "name": "低端影视",
+      "type": 3,
+      "api": "csp_Ddrk",
+      "timeout": 10,
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "快看",
       "name": "快看影视",
       "type": 3,
-      "api": "csp_Kuaikan",
+      "api": "csp_Kkys",
+      "timeout": 10,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 30
+      "changeable": 1
     },
     {
-      "key": "NiNi",
-      "name": "泥巴影视",
+      "key": "热播",
+      "name": "热播影视",
       "type": 3,
-      "api": "csp_NiNi",
+      "api": "csp_AppTT",
+      "timeout": 10,
+      "playerType": 2,
       "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
-      "timeout": 60
+      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
     },
     {
-      "key": "Star",
+      "key": "星星",
       "name": "星星影视",
       "type": 3,
       "api": "csp_Star",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "ZhuiJu",
-      "name": "追剧影视",
-      "type": 3,
-      "api": "csp_TTian",
-      "ext": "http://app.kzjtv.com$$$null$$$1",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "TianTian",
-      "name": "天天影视",
-      "type": 3,
-      "api": "csp_TTian",
-      "ext": "http://op.ysdqjs.cn$$$null$$$1",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "ChangZhang",
-      "name": "厂长影视",
-      "type": 3,
-      "api": "csp_DiDuan",
+      "timeout": 10,
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "timeout": 60
+      "changeable": 1
     },
     {
-      "key": "TV3V",
-      "name": "电视猫",
+      "key": "南瓜",
+      "name": "南瓜影视",
       "type": 3,
-      "api": "csp_TianShi",
+      "api": "csp_NanGua",
+      "timeout": 10,
+      "playerType": 2,
       "searchable": 1,
-      "changeable": 0,
-      "timeout": 30
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
-      "key": "ReBoZJ",
-      "name": "热播之家",
+      "key": "Auete",
+      "name": "Auete影视",
       "type": 3,
-      "api": "csp_TTian",
-      "ext": "http://app.kzjtv.com$$$null$$$1",
+      "api": "csp_Auete",
+      "timeout": 10,
       "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
-      "timeout": 30
+      "ext": "https://auete.pro/"
     },
     {
-      "key": "ShiPinSou",
-      "name": "视频搜",
+      "key": "泥巴",
+      "name": "泥巴影视",
       "type": 3,
-      "api": "csp_Shapi",
+      "api": "csp_NiNi",
+      "timeout": 10,
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "timeout": 60
+      "changeable": 1
     },
     {
-      "key": "DaDaG",
-      "name": "达达龟",
+      "key": "6V",
+      "name": "新6V磁力",
       "type": 3,
-      "api": "csp_DadaG",
+      "api": "csp_SixV",
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
       "changeable": 0,
-      "timeout": 60
+      "ext": "https://www.xb6v.com/"
+    },
+    {
+      "key": "比特",
+      "name": "比特影视",
+      "type": 3,
+      "api": "csp_Bttwoo",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "文采",
+      "name": "文采影视",
+      "type": 3,
+      "api": "csp_Jpys",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "lib",
+      "name": "立播影视",
+      "type": 3,
+      "api": "csp_Libvio",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     }
   ],
   "doh": [
@@ -838,57 +855,59 @@
   ],
   "lives": [
     {
+      "name": "初秋语•综合",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/fmz2000/quantv/main/g1.m3u",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "YanG•直播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "范明明•IPv6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
+      "name": "肥猫•综合",
+      "type": 0,
+      "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
       "name": "Ray•综合",
       "type": 0,
       "url": "https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
       "playerType": 1,
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
     },
     {
-      "name": "YanG•集合",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-      "playerType": 2,
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
-    },
-    {
-      "name": "YueChan•IPTV",
+      "name": "YueChan•综合",
       "type": 0,
       "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
-      "playerType": 2,
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
     },
     {
-      "name": "YueChan•Global",
+      "name": "俊于•综合",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/YueChan/Live/main/Global.m3u",
-      "playerType": 2
-    },
-    {
-      "name": "Kimentanm•IPTV",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "playerType": 2,
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
-    },
-    {
-      "name": "BigBigGrandG•集合",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
-      "playerType": 2,
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
-    },
-    {
-      "name": "YueChan•Radio",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/YueChan/Live/main/Radio.m3u",
-      "playerType": 1
-    },
-    {
-      "name": "阿不•直播源说明",
-      "type": 0,
-      "url": "# 本配置含7条多线直播源，每3天自动检测更新",
-      "playerType": 2
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
     }
   ],
   "headers": [
