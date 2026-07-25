@@ -1,4 +1,4 @@
-﻿{
+{
   "spider": "https://abu168888.github.io/tvbox-config/spider.jar",
   "wallpaper": "http://阿布 TVBox.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
@@ -164,82 +164,6 @@
         "siteUrl": "https://www.wogg.com/",
         "danMu": "弹"
       }
-    },
-    {
-      "key": "Wogg_New",
-      "name": "✨玩偶•4K(新)✨",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": {
-        "site": [
-          "https://www.wogg.net",
-          "https://wogg.xxooo.cf",
-          "https://woggpan.xxooo.cf"
-        ]
-      }
-    },
-    {
-      "key": "ZhiZhen_New",
-      "name": "✨至臻•4K(新)✨",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": {
-        "site": [
-          "https://mihdr.top",
-          "https://www.miqk.cc",
-          "https://www.mihdr.top"
-        ]
-      }
-    },
-    {
-      "key": "GuGu_Anime",
-      "name": "✨咕咕•动漫✨",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 30,
-      "ext": {
-        "url": "https://www.gugu3.com",
-        "dataKey": "nKfZ8KX6JTNWRzTD",
-        "dataIv": "nKfZ8KX6JTNWRzTD"
-      }
-    },
-    {
-      "key": "Pan123_4K",
-      "name": "✨123•4K✨",
-      "type": 3,
-      "api": "csp_PanWebShare123",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": {
-        "site": [
-          "https://123panfx.com",
-          "https://pan1.me"
-        ]
-      }
-    },
-    {
-      "key": "New6V_Magnet",
-      "name": "✨New6V•磁力✨",
-      "type": 3,
-      "api": "csp_New6v",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 30,
-      "ext": "https://www.xb6v.com"
     },
     {
       "key": "WexGuaZi",
@@ -982,6 +906,60 @@
       "api": "csp_PushGuard",
       "searchable": 1,
       "changeable": 0
+    },
+    {
+      "key": "NewPanSou",
+      "name": "新盘搜4K",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "YiSo",
+      "name": "新易搜4K",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "XunLeim",
+      "name": "新迅雷磁力",
+      "type": 3,
+      "api": "csp_XunLeim",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "NewKunYu",
+      "name": "新酷云4K",
+      "type": 3,
+      "api": "csp_KunYu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "NewLiangCai",
+      "name": "新猎手4K",
+      "type": 3,
+      "api": "csp_LiangCai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "NewDm84",
+      "name": "新动漫4K",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     }
   ],
   "doh": [
@@ -1158,4 +1136,3 @@
     }
   ]
 }
-
