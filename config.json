@@ -1,6 +1,6 @@
 {
   "spider": "https://abu168888.github.io/tvbox-config/spider.jar",
-  "wallpaper": "http://阿布 TVBox.999888987.xyz",
+  "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
@@ -563,6 +563,127 @@
       "searchable": 1,
       "changeable": 1,
       "timeout": 60
+    },
+    {
+      "key": "Bdys",
+      "name": "哔滴影视",
+      "type": 3,
+      "api": "csp_Bdys01",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "NanGua",
+      "name": "南瓜影视",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "Kuaikan",
+      "name": "快看影视",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "NiNi",
+      "name": "泥巴影视",
+      "type": 3,
+      "api": "csp_NiNi",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 60
+    },
+    {
+      "key": "Star",
+      "name": "星星影视",
+      "type": 3,
+      "api": "csp_Star",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "ZhuiJu",
+      "name": "追剧影视",
+      "type": 3,
+      "api": "csp_TTian",
+      "ext": "http://app.kzjtv.com$$$null$$$1",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "TianTian",
+      "name": "天天影视",
+      "type": 3,
+      "api": "csp_TTian",
+      "ext": "http://op.ysdqjs.cn$$$null$$$1",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "ChangZhang",
+      "name": "厂长影视",
+      "type": 3,
+      "api": "csp_DiDuan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "TV3V",
+      "name": "电视猫",
+      "type": 3,
+      "api": "csp_TianShi",
+      "searchable": 1,
+      "changeable": 0,
+      "timeout": 30
+    },
+    {
+      "key": "ReBoZJ",
+      "name": "热播之家",
+      "type": 3,
+      "api": "csp_TTian",
+      "ext": "http://app.kzjtv.com$$$null$$$1",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "ShiPinSou",
+      "name": "视频搜",
+      "type": 3,
+      "api": "csp_Shapi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "DaDaG",
+      "name": "达达龟",
+      "type": 3,
+      "api": "csp_DadaG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "timeout": 60
     }
   ],
   "doh": [
@@ -717,17 +838,57 @@
   ],
   "lives": [
     {
-      "name": "Kimentanm",
+      "name": "Ray•综合",
       "type": 0,
-      "url": "https://abu168888.github.io/tvbox-config/lib/iptv.m3u",
+      "url": "https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "YanG•集合",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "YueChan•IPTV",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "YueChan•Global",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/YueChan/Live/main/Global.m3u",
       "playerType": 2
     },
     {
-      "name": "综合直播",
+      "name": "Kimentanm•IPTV",
       "type": 0,
+      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 2,
-      "url": "https://abu168888.github.io/tvbox-config/lib/interface.txt",
-      "ua": "bingcha/1.1 (mianfeifenxiang) "
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "BigBigGrandG•集合",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "YueChan•Radio",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/YueChan/Live/main/Radio.m3u",
+      "playerType": 1
+    },
+    {
+      "name": "阿不•直播源说明",
+      "type": 0,
+      "url": "# 本配置含7条多线直播源，每3天自动检测更新",
+      "playerType": 2
     }
   ],
   "headers": [
