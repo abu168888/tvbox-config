@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-07-25T17:24:09.305746",
+  "current_stats": {
+    "total_sites": 54,
+    "used_guards": 52,
+    "guard_list": [
+      "csp_WexV6DaShiXiongGuard",
+      "csp_DuanJuXingYaGuard",
+      "csp_SportKanqiuGuard",
+      "csp_NewDuoDuoGuard",
+      "csp_SportFeiQiuGuard",
+      "csp_MyBaiDuGuard",
+      "csp_WexDuBoKuGuard",
+      "csp_SportKaFeiGuard",
+      "csp_WexV6TeGouGuard",
+      "csp_MyQuarkGuard",
+      "csp_MyPan189Guard",
+      "csp_DuanJuWeiGuanGuard",
+      "csp_MyUcPanGuard",
+      "csp_NewPanMe123Guard",
+      "csp_DuanJuQiMiaoGuard",
+      "csp_PushGuard",
+      "csp_Fake115ShareGuard",
+      "csp_NewDouBanGuard",
+      "csp_WexXb6vGuard",
+      "csp_MyPan115Guard",
+      "csp_NewHuBanGuard",
+      "csp_BookShiJieGuard",
+      "csp_MyPan123Guard",
+      "csp_NewJuTouGuard",
+      "csp_Book23TingShuGuard",
+      "csp_WexIkanBotGuard",
+      "csp_DuanJuHaoKanGuard",
+      "csp_WexJianPianGuard",
+      "csp_NewMuOuGuard",
+      "csp_DuanJuHeMaGuard",
+      "csp_SportKanQiuTongGuard",
+      "csp_SportWweGuard",
+      "csp_WexReBoGuard",
+      "csp_ManJuXiFanGuard",
+      "csp_SportGuaZiGuard",
+      "csp_WexYiYsGuard",
+      "csp_NewWoggGuard",
+      "csp_WexHanXiaoQuanGuard",
+      "csp_WexWenCaiGuard",
+      "csp_WexConfigGuard",
+      "csp_WexBoBoGuard",
+      "csp_MyGuangYaGuard",
+      "csp_BookYueTingGuard",
+      "csp_New4KZnGuard",
+      "csp_ManJuHuoLongGuard",
+      "csp_NewErXiaoGuard",
+      "csp_WexGuaZiGuard",
+      "csp_NewGuanYingGuard",
+      "csp_WexYueYueGuard",
+      "csp_ManJuHongGuoGuard",
+      "csp_ManJuQiMaoGuard",
+      "csp_NewZhiZhenGuard"
+    ]
+  },
+  "hot_standby_pool": [
+    {
+      "class": "csp_AListGuard",
+      "category": "影视源",
+      "priority": 2
+    },
+    {
+      "class": "csp_AnimeFanShuGuard",
+      "category": "影视源",
+      "priority": 2
+    },
+    {
+      "class": "csp_AnimeHuaziGuard",
+      "category": "影视源",
+      "priority": 2
+    }
+  ],
+  "new_discovered": [],
+  "recommendations": [
+    "csp_NewBiLiYSGuard",
+    "csp_WexTangDouGuard",
+    "csp_AListGuard",
+    "csp_AnimeFanShuGuard",
+    "csp_AnimeHuaziGuard"
+  ]
+}

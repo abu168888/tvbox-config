@@ -529,6 +529,51 @@
       "api": "csp_PushGuard",
       "searchable": 1,
       "changeable": 0
+    },
+    {
+      "key": "Auto_NewBiLiYS",
+      "name": "自动┃B 站采集",
+      "type": 3,
+      "api": "csp_NewBiLiYSGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_WexTangDou",
+      "name": "自动┃糖豆短剧",
+      "type": 3,
+      "api": "csp_WexTangDouGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_AList",
+      "name": "自动┃网盘聚合",
+      "type": 3,
+      "api": "csp_AListGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_AnimeFanShu",
+      "name": "自动┃动漫繁树",
+      "type": 3,
+      "api": "csp_AnimeFanShuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Auto_AnimeHuazi",
+      "name": "自动┃葫芦动漫",
+      "type": 3,
+      "api": "csp_AnimeHuaziGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     }
   ],
   "doh": [
