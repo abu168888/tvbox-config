@@ -1,13 +1,12 @@
-name: Auto Source Health Check & Replace
+name: Auto Source Health Check & Daily Report
 
 on:
   schedule:
-    # 每天凌晨 3 点（北京时间）执行
     - cron: '0 3 * * *'
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch:
 
 jobs:
-  check-sources:
+  health-check-and-report:
     runs-on: ubuntu-latest
     
     steps:
@@ -25,39 +24,35 @@ jobs:
         run: |
           pip install requests
       
-      - name: Run health check
+      - name: Run source health check
         run: |
           python github_auto_check.py
-        env:
-          TZ: 'Asia/Shanghai'
       
-      - name: Check for changes
-        id: git-check
+      - name: Generate daily report
         run: |
-          git diff --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+          python daily_report.py
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          WEWORK_WEBHOOK: ${{ secrets.WEWORK_WEBHOOK }}
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+      
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: daily-report
+          path: daily_report_*.md
+          retention-days: 30
       
       - name: Commit and push if changes detected
-        if: steps.git-check.outputs.changes == 'true'
         run: |
           git config --global user.name 'tvbox-bot'
           git config --global user.email 'bot@abu.tvbox'
           
-          # 添加所有变更
           git add .
           
-          # 生成提交信息
           TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
-          git commit -m "Auto update: Source health check (${{ github.run_id }}) - ${TIMESTAMP}" || echo "No changes to commit"
+          git commit -m "Auto daily report (${{ github.run_id }}) - ${TIMESTAMP}" || echo "No changes"
           
-          # 推送到仓库
-          git push origin main || echo "Push failed, might be no new changes"
-      
-      - name: Summary report
-        run: |
-          echo "=== Auto Source Check Report ===" >> $GITHUB_STEP_SUMMARY
-          echo "Timestamp: $(date)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          if [ -f source_manager_report.json ]; then
-            echo "Latest stats:" >> $GITHUB_STEP_SUMMARY
-            cat source_manager_report.json | head -20 >> $GITHUB_STEP_SUMMARY
-          fi
+          git push origin main || echo "Push skipped"
