@@ -1,46 +1,29 @@
 import json
+import sys
+import os
+
+# 设置 UTF-8
+os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 with open('config.json', 'r', encoding='utf-8') as f:
     config = json.load(f)
 
 sites = config['sites']
 
-# 1. 删除非 Guard 类源
 remove_non_guard = {'Netfixtv', 'Duopan', 'Wwys', 'Gz360', 'SP360', 'Jianpian', 'MTV', 'Kugou', 'FirstAid', 'Dm84'}
-# 2. 删除 App 源
 remove_app = {'FeiMao', 'GanFan', 'GuangPan', 'XingDong', 'ZaiLai', 'YiWan', 'ShuCai', 'YongYong', 'ChaoLiu'}
-# 3. 删除 My* 系列网盘源
 remove_my_pan = {'MyQuark', 'MyBaiDu', 'MyUcPan', 'MyGuangYa', 'MyPan189', 'MyPan115', 'Fake115Share', 'MyPan123'}
 
 all_remove = remove_non_guard.union(remove_app).union(remove_my_pan)
-print("Removed %d sources" % len(all_remove))
 
-# 过滤后的站点
+print("Total removed:", len(all_remove))
+print("\nKeys to remove:")
+for key in sorted(all_remove):
+    print("  " + key)
+
 new_sites = [s for s in sites if s['key'] not in all_remove]
 
-# 4. 修复网盘源 ext 参数（解决 2001 错误）
-pan_fixes = {
-    'WexWoquark': {'changeable': 1, 'timeout': 50, 'ext': ''},
-    'WexWoBaidu': {'changeable': 1, 'timeout': 50, 'ext': ''},
-    'Wex115share': {'changeable': 1, 'timeout': 50, 'ext': ''},
-    'WexWo189': {'changeable': 1, 'timeout': 50, 'ext': ''},
-    'WexWo123': {'changeable': 1, 'timeout': 50, 'ext': ''},
-    'WexXunLei': {'changeable': 1, 'timeout': 50, 'ext': ''},
-}
-
-for s in new_sites:
-    key = s['key']
-    if key in pan_fixes:
-        for k, v in pan_fixes[key].items():
-            s[k] = v
-        print("Fixed: " + key)
-
-# 5. 检查文采源
-for s in new_sites:
-    if '文才' in s.get('name', '') or 'WexWenCai' == s['key']:
-        print("Found WexWenCai: changeable=" + str(s.get('changeable')))
-
-# 统计分类
+print("\nAfter cleanup:")
 cats = {}
 for s in new_sites:
     name = s.get('name', '')
@@ -63,14 +46,24 @@ for s in new_sites:
     
     cats[category] = cats.get(category, 0) + 1
 
-print("\nFinal stats:")
 for k, v in sorted(cats.items()):
     print("  %s: %d" % (k, v))
 
-# 保存
+keys = [s['key'] for s in new_sites]
+dups = {k: keys.count(k) for k in set(keys) if keys.count(k) > 1}
+print("\nDuplicate keys:", dups if dups else "None")
+
+print("\nCloud sources:")
+for s in new_sites:
+    name = s.get('name', '')
+    if any(k in name for k in ['夸克', '百度', 'UC', '光鸭', '天翼', '115', '123', '讯雷']):
+        changeable = s.get('changeable', 'N/A')
+        ext = str(s.get('ext', ''))[:30]
+        print("  %s | %s | changeable: %s | ext: %s" % (s['key'], name, changeable, ext))
+
 config['sites'] = new_sites
-with open('config.json', 'w', encoding='utf-8') as f:
+with open('config_cleaned.json', 'w', encoding='utf-8') as f:
     json.dump(config, f, ensure_ascii=False, indent=2)
 
-print("\nTotal: %d -> %d" % (len(sites), len(new_sites)))
-print("Saved to config.json")
+print("\nTotal: %d -> %d (removed %d)" % (len(sites), len(new_sites), len(all_remove)))
+print("Saved to config_cleaned.json")
