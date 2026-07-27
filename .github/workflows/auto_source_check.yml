@@ -2,7 +2,8 @@ name: Auto Source Health Check & Daily Report
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    # 北京时间每天凌晨 3:00 = UTC 19:00 (前一天)
+    - cron: '0 19 * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,21 +17,18 @@ jobs:
           fetch-depth: 0
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
       
       - name: Install dependencies
-        run: |
-          pip install requests
+        run: pip install requests
       
       - name: Run source health check
-        run: |
-          python github_auto_check.py
+        run: python github_auto_check.py
       
       - name: Generate daily report
-        run: |
-          python daily_report.py
+        run: python daily_report.py
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -39,20 +37,17 @@ jobs:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
       
       - name: Upload report artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: daily-report
           path: daily_report_*.md
           retention-days: 30
       
-      - name: Commit and push if changes detected
+      - name: Commit and push if changes
         run: |
           git config --global user.name 'tvbox-bot'
           git config --global user.email 'bot@abu.tvbox'
-          
           git add .
-          
           TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
           git commit -m "Auto daily report (${{ github.run_id }}) - ${TIMESTAMP}" || echo "No changes"
-          
           git push origin main || echo "Push skipped"

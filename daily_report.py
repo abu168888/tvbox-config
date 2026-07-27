@@ -3,32 +3,33 @@
 阿不 TVBox - 每日工作日报生成器
 生成完整日报，包含：做了什么、新增/删除/修复明细、统计、Git 历史
 支持多渠道推送通知（Telegram/钉钉/企业微信/飞书）
+适用于 GitHub Actions 和 Windows 本地双环境
 """
 import json
-import requests
+import os
 import subprocess
 from datetime import datetime, timedelta
 
-CONFIG_PATH = r'C:\Users\Administrator\AppData\Roaming\winclaw\.openclaw\workspace\tvbox-abu-new\config.json'
-GUARDS_DB_PATH = r'C:\Users\Administrator\AppData\Roaming\winclaw\.openclaw\workspace\tvbox-abu-new\all_guard_classes.json'
-LOG_FILE = r'C:\Users\Administrator\AppData\Roaming\winclaw\.openclaw\workspace\tvbox-abu-new\auto_source_manager.log'
+# 跨平台路径：GitHub Actions 通过 GITHUB_WORKSPACE 环境变量获取路径
+REPO_ROOT = os.environ.get('GITHUB_WORKSPACE', os.path.dirname(os.path.abspath(__file__)))
+CONFIG_PATH = os.path.join(REPO_ROOT, 'config.json')
 
 def get_git_log(days=7):
     """获取最近 N 天的 Git 操作记录"""
     try:
         cutoff = datetime.now() - timedelta(days=days)
-        log_cmd = ['git', 'log', '--since={}'.format(cutoff.strftime('%Y-%m-%d')), '--oneline', '--no-merges']
-        result = subprocess.run(log_cmd, capture_output=True, text=True, encoding='utf-8', errors='ignore', cwd='tvbox-abu-new')
+        log_cmd = ['git', 'log', '--since={}'.format(cutoff.strftime('%Y-%m-%dT%H:%M:%S')), '--oneline', '--no-merges']
+        result = subprocess.run(log_cmd, capture_output=True, text=True, encoding='utf-8', errors='ignore', cwd=REPO_ROOT)
         commits = result.stdout.strip().split('\n') if result.stdout.strip() else []
-        return [c for c in commits if c]  # 过滤空行
+        return [c for c in commits if c]
     except Exception as e:
         return [str(e)]
 
 def get_git_diff_summary():
-    """获取最近的差异汇总（最后几次提交）"""
+    """获取最近的差异汇总"""
     try:
         cmd = ['git', 'log', '--oneline', '-5']
-        result = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='ignore', cwd='tvbox-abu-new')
+        result = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='ignore', cwd=REPO_ROOT)
         return result.stdout.strip().split('\n') if result.stdout.strip() else []
     except Exception as e:
         return [str(e)]
@@ -42,37 +43,28 @@ def load_config_stats():
     type3_sites = [s for s in sites if s.get('type') == 3]
     guard_count = len([s for s in type3_sites if 'Guard' in s.get('api', '')])
     
-    # 分类统计
     categories = {
-        '4K 源': 0,
-        '影视源': 0,
-        '短剧源': 0,
-        '动漫源': 0,
-        '直播源': 0,
-        '搜索源': 0,
-        '听书源': 0,
-        '体育源': 0,
-        '网盘源': 0,
-        '其他': 0
+        '4K 源': 0, '影视源': 0, '短剧源': 0, '动漫源': 0,
+        '直播源': 0, '搜索源': 0, '听书源': 0, '体育源': 0, '网盘源': 0,
     }
     
     for site in type3_sites:
         name = site.get('name', '').lower()
-        if '4k' in name or '玩偶' in name or '至臻' in name or '观影' in name or '剧透' in name or '虎斑' in name or '木偶' in name:
+        if any(k in name for k in ['4k', '玩偶', '至臻', '观影', '剧透', '虎斑', '木偶', '4K']):
             categories['4K 源'] += 1
-        elif '短剧' in name or '漫剧' in name or '漫短' in name or '短剧' in name:
+        elif any(k in name for k in ['短剧', '漫剧', '漫短']):
             categories['短剧源'] += 1
-        elif '动漫' in name or '猫屋' in name or '繁树' in name or '葫芦' in name:
+        elif any(k in name for k in ['动漫', '猫屋', '繁树', '葫芦']):
             categories['动漫源'] += 1
-        elif '直播' in name or '斗鱼' in name or '虎牙' in name:
+        elif any(k in name for k in ['直播', '斗鱼', '虎牙']):
             categories['直播源'] += 1
-        elif '搜索' in name or '九七' in name or '海音' in name or '搜索' in name:
+        elif any(k in name for k in ['搜索', '九七', '海音']):
             categories['搜索源'] += 1
-        elif '听书' in name or '悦庭' in name or '爱上' in name or '极品' in name:
+        elif any(k in name for k in ['听书', '悦庭', '爱上', '极品']):
             categories['听书源'] += 1
-        elif '体育' in name or '球通' in name or '咖啡' in name or '八八' in name or 'WWE' in name:
+        elif any(k in name for k in ['体育', '球通', '咖啡', '八八', 'WWE']):
             categories['体育源'] += 1
-        elif '网盘' in name or '夸克' in name or '百度' in name or '天翼' in name or '115' in name:
+        elif any(k in name for k in ['网盘', '夸克', '百度', '天翼', '115']):
             categories['网盘源'] += 1
         else:
             categories['影视源'] += 1
@@ -98,41 +90,35 @@ def generate_report():
         '时间': now.strftime('%H:%M:%S'),
         '执行时间': '每天凌晨 03:00 (北京时间)',
         '运行状态': '[OK] 正常',
-        
         '一、今日做了什么': [
-            '1. 运行自动化源健康检查 (auto_source_manager.py)',
+            '1. 运行自动化源健康检查 (github_auto_check.py)',
             '2. 检测现有源的可访问性状态',
             '3. 从备用池筛选新的候选源进行验证',
             '4. 验证通过的源自动添加到配置',
             '5. 提交 Git 并推送到 GitHub Pages',
             '6. 生成完整工作日报并推送通知',
         ],
-        
         '二、今日操作明细': {
             'Git 提交记录': git_log,
             '最近 5 次提交': git_diff,
         },
-        
         '三、当前配置状态': {
             '总站点数': today_stats['total_sites'],
             'Type-3 Spider 站点': today_stats['type3_sites'],
             'Guard 类数量': today_stats['guard_count'],
             '分类统计': today_stats['categories'],
         },
-        
         '四、健康状态': {
             '配置地址': 'https://abu168888.github.io/tvbox-config/config.json',
             'Spider JAR': 'https://abu168888.github.io/tvbox-config/spider.jar',
             'GitHub 仓库': 'https://github.com/abu168888/tvbox-config',
             'GitHub Actions': '已部署，每日凌晨 3 点自动运行',
         },
-        
         '五、推送通知': {
             '状态': '[OK] 已推送',
             '渠道': 'GitHub Actions + 可选 Telegram/钉钉/企业微信/飞书',
             '下次执行': (now + timedelta(days=1)).strftime('%Y-%m-%d 03:00:00'),
         },
-        
         '六、待办事项': [
             '持续监控源可用性',
             '定期从外部源发现新 Guard 类',
@@ -146,11 +132,7 @@ def generate_report():
 def format_markdown(report):
     """将日报格式化为 Markdown"""
     lines = []
-    lines.append("# {} - {} ({})".format(
-        report['标题'], 
-        report['日期'],
-        report['时间']
-    ))
+    lines.append("# {} - {} ({})".format(report['标题'], report['日期'], report['时间']))
     lines.append("")
     lines.append("| 字段 | 值 |")
     lines.append("|------|-----|")
@@ -164,7 +146,7 @@ def format_markdown(report):
     lines.append("")
     
     lines.append("## 二、今日操作明细")
-    lines.append("### Git 提交记录")
+    lines.append("### Git 提交记录 (最近 7 天)")
     for commit in report['二、今日操作明细']['Git 提交记录'][:5]:
         if commit:
             lines.append("- {}".format(commit))
@@ -188,13 +170,12 @@ def format_markdown(report):
     lines.append("")
     
     lines.append("## 四、健康状态")
-    health = report['四、健康状态']
     lines.append("| 项目 | 地址/状态 |")
     lines.append("|------|-----------|")
-    lines.append("| 配置地址 | {} |".format(health['配置地址']))
-    lines.append("| Spider JAR | {} |".format(health['Spider JAR']))
-    lines.append("| GitHub 仓库 | {} |".format(health['GitHub 仓库']))
-    lines.append("| GitHub Actions | {} |".format(health['GitHub Actions']))
+    lines.append("| 配置地址 | {} |".format(report['四、健康状态']['配置地址']))
+    lines.append("| Spider JAR | {} |".format(report['四、健康状态']['Spider JAR']))
+    lines.append("| GitHub 仓库 | {} |".format(report['四、健康状态']['GitHub 仓库']))
+    lines.append("| GitHub Actions | {} |".format(report['四、健康状态']['GitHub Actions']))
     lines.append("")
     
     lines.append("## 五、推送通知")
@@ -229,6 +210,7 @@ def send_notification(report, markdown_text):
     # Telegram 推送
     if TELEGRAM_TOKEN and TELEGRAM_CHAT_ID:
         try:
+            import requests
             url = "https://api.telegram.org/bot{}/sendMessage".format(TELEGRAM_TOKEN)
             payload = {
                 'chat_id': TELEGRAM_CHAT_ID,
@@ -246,6 +228,7 @@ def send_notification(report, markdown_text):
     # 钉钉推送
     if DINGTALK_WEBHOOK:
         try:
+            import requests
             payload = {
                 'msgtype': 'markdown',
                 'markdown': {
@@ -264,6 +247,7 @@ def send_notification(report, markdown_text):
     # 企业微信推送
     if WEWORK_WEBHOOK:
         try:
+            import requests
             payload = {
                 'msgtype': 'markdown',
                 'markdown': {
@@ -281,6 +265,7 @@ def send_notification(report, markdown_text):
     # 飞书推送
     if FEISHU_WEBHOOK:
         try:
+            import requests
             payload = {
                 'msg_type': 'interactive',
                 'card': {
