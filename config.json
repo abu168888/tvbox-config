@@ -27,211 +27,6 @@
       }
     },
     {
-      "key": "NewPanMe123",
-      "name": "💓123┃4K💓",
-      "type": 3,
-      "api": "csp_NewPanMe123Guard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "MyPan123",
-      "name": "💓我的┃123💓‍",
-      "type": 3,
-      "api": "csp_MyPan123Guard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "WexWo123",
-      "name": "💓我的┃123💓‍",
-      "type": 3,
-      "api": "csp_WexWo123panGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "WexBD",
-      "name": "🎠给力┃百度🎠",
-      "type": 3,
-      "api": "csp_WexbaidusoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "Fake115Share",
-      "name": "💓115┃分享💓‍",
-      "type": 3,
-      "api": "csp_Fake115ShareGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyPan115",
-      "name": "💓我的┃115💓‍",
-      "type": 3,
-      "api": "csp_MyPan115Guard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "Wex115share",
-      "name": "💓我的┃115💓‍",
-      "type": 3,
-      "api": "csp_Wex115shareGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyUcPan",
-      "name": "💓我的┃UC💓‍",
-      "type": 3,
-      "api": "csp_MyUcPanGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyGuangYa",
-      "name": "💓我的┃光鸭💓‍",
-      "type": 3,
-      "api": "csp_MyGuangYaGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyPan189",
-      "name": "💓我的┃天翼💓‍",
-      "type": 3,
-      "api": "csp_MyPan189Guard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "WexWo189",
-      "name": "💓我的┃天翼💓‍",
-      "type": 3,
-      "api": "csp_WexWo189Guard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyQuark",
-      "name": "💓我的┃夸克💓‍",
-      "type": 3,
-      "api": "csp_MyQuarkGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "WexWoquark",
-      "name": "💓我的┃夸克💓‍",
-      "type": 3,
-      "api": "csp_WexWoquarkpanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyBaiDu",
-      "name": "💓我的┃百度💓‍",
-      "type": 3,
-      "api": "csp_MyBaiDuGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "WexXunLei",
-      "name": "💓我的┃讯雷💓‍",
-      "type": 3,
-      "api": "csp_WexWoXunLeiPanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "WexWouc",
-      "name": "💓我的┃优熙💓‍",
-      "type": 3,
-      "api": "csp_WexWoucpanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "WexWoyd",
-      "name": "💓我的┃异动💓‍",
-      "type": 3,
-      "api": "csp_WexWoydpanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "WexEmby",
-      "name": "🀄️emby┃4K🀄️",
-      "type": 3,
-      "api": "csp_WexembyGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "原盘",
       "name": "💓‍原盘┃4K💓‍",
       "type": 3,
@@ -315,24 +110,6 @@
       "timeout": 120
     },
     {
-      "key": "Auto_Bili",
-      "name": "秒播┃Bili",
-      "type": 3,
-      "api": "csp_BiliGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "Auto_Emby",
-      "name": "秒播┃Emby 影音",
-      "type": 3,
-      "api": "csp_EmbyGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "Auto_LiveDouYu",
       "name": "秒播┃LiveDouYu",
       "type": 3,
@@ -346,33 +123,6 @@
       "name": "秒播┃LiveHuYa",
       "type": 3,
       "api": "csp_LiveHuYaGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "Auto_So97So",
-      "name": "秒播┃九七搜索",
-      "type": 3,
-      "api": "csp_So97SoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "Auto_AnimeMiaoWu",
-      "name": "秒播┃动漫喵屋",
-      "type": 3,
-      "api": "csp_AnimeMiaoWuGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "Auto_SoHaiYin",
-      "name": "秒播┃海音影视",
-      "type": 3,
-      "api": "csp_SoHaiYinGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -468,15 +218,6 @@
       "changeable": 0
     },
     {
-      "key": "WexGuaZi",
-      "name": "💥瓜子┃秒播💥",
-      "type": 3,
-      "api": "csp_WexGuaZiGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "賤賤",
       "name": "💥贱片┃秒播💥",
       "type": 3,
@@ -565,28 +306,6 @@
       "api": "csp_DuanJuXingYaGuard",
       "searchable": 1,
       "changeable": 0
-    },
-    {
-      "key": "SportGuaZi",
-      "name": "🌐瓜子┃体育🌐",
-      "type": 3,
-      "api": "csp_SportGuaZiGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "GuaziKQ",
-      "name": "🌐瓜子┃体育🌐",
-      "type": 3,
-      "api": "csp_WexGZsportGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
     },
     {
       "key": "KanQiu",
