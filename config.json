@@ -110,24 +110,6 @@
       "timeout": 120
     },
     {
-      "key": "Auto_LiveDouYu",
-      "name": "秒播┃LiveDouYu",
-      "type": 3,
-      "api": "csp_LiveDouYuGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "Auto_LiveHuYa",
-      "name": "秒播┃LiveHuYa",
-      "type": 3,
-      "api": "csp_LiveHuYaGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
       "key": "Auto_LiveBiLi",
       "name": "秒播┃直播 B 站",
       "type": 3,
@@ -197,7 +179,8 @@
       "api": "csp_WexWenCaiGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext": "https://api.wenchai.net"
     },
     {
       "key": "WexReBo",
