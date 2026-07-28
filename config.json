@@ -1,51 +1,66 @@
 {
   "spider": "https://abu168888.github.io/tvbox-config/spider.jar",
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
-  "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
+  "logo": "",
   "sites": [
     {
-      "key": "Doubana",
-      "name": "🐮【更新日期:20260723】🐮",
-      "type": 3,
-      "api": "csp_NewDouBanGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://abu168888.github.io/tvbox-config/lib/20260414181247-ae51abfbfe.txt"
-    },
-    {
-      "key": "NewDouBan",
-      "name": "🐮【阿不 TVBox】🐮",
-      "type": 3,
-      "api": "csp_NewDouBanGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://abu168888.github.io/tvbox-config/lib/20260414181247-ae51abfbfe.txt"
-    },
-    {
-      "key": "原盘",
-      "name": "💓‍原盘┃4K💓‍",
-      "type": 3,
-      "api": "csp_New4KZnGuard",
+      "key": "nmys",
+      "name": "⚡️农民┃秒播",
+      "type": 0,
+      "api": "http://smzy1.kuanjv.com/newapi.php?apikey=smzy1",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1,
+      "categories": [
+        "剧情",
+        "动作",
+        "喜剧",
+        "爱情",
+        "科幻",
+        "恐怖",
+        "战争",
+        "古装"
+      ]
     },
     {
-      "key": "阿不",
-      "name": "💓‍指南┃4K💓‍",
-      "type": 3,
-      "api": "csp_NewErXiaoGuard",
+      "key": "czzy",
+      "name": "⚡️厂长┃秒播",
+      "type": 0,
+      "api": "http://app.zhuifeng.tv/api/class/56",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
     },
     {
-      "key": "玩偶",
-      "name": "💓‍玩偶┃4K💓‍",
+      "key": "ddys",
+      "name": "⚡️低端┃秒播",
+      "type": 0,
+      "api": "https://ddys.pro/api/json.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "kuaikan",
+      "name": "⚡️快看┃秒播",
+      "type": 0,
+      "api": "http://kuaikan-api.com/api.php/provide/vod/from/kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "piaohua",
+      "name": "⚡️飘花┃秒播",
+      "type": 0,
+      "api": "http://json.piaofan.com/papi/index.php/vod/api/type/id/20",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "wogg_4k",
+      "name": "📺 [4K] 玩偶哥哥┃弹幕",
       "type": 3,
       "api": "csp_NewWoggGuard",
       "searchable": 1,
@@ -58,39 +73,8 @@
       }
     },
     {
-      "key": "NewJuTou",
-      "name": "💓剧透┃4K💓",
-      "type": 3,
-      "api": "csp_NewJuTouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "NewDuoDuo",
-      "name": "💓多多┃4K💓",
-      "type": 3,
-      "api": "csp_NewDuoDuoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 120
-    },
-    {
-      "key": "NewMuOu",
-      "name": "💓木偶┃4K💓",
-      "type": 3,
-      "api": "csp_NewMuOuGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "NewZhiZhen",
-      "name": "💓至臻┃4K💓",
+      "key": "zhizhen_4k",
+      "name": "📺 [4K] 至臻┃4K 云盘",
       "type": 3,
       "api": "csp_NewZhiZhenGuard",
       "searchable": 1,
@@ -101,10 +85,10 @@
       }
     },
     {
-      "key": "NewHuBan",
-      "name": "💓虎斑┃4K💓",
+      "key": "muou_4k",
+      "name": "📺 [4K] 木偶┃4K",
       "type": 3,
-      "api": "csp_NewHuBanGuard",
+      "api": "csp_NewMuOuGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -113,72 +97,72 @@
       }
     },
     {
-      "key": "NewGuanYing",
-      "name": "💓观影┃4K💓",
+      "key": "duoduo_4k",
+      "name": "📺 [4K] 多多┃4K",
+      "type": 3,
+      "api": "csp_NewDuoDuoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "huban_4k",
+      "name": "📺 [4K] 虎斑┃4K",
+      "type": 3,
+      "api": "csp_NewHuBanGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "erxiao_4k",
+      "name": "📺 [4K] 二小┃4K",
+      "type": 3,
+      "api": "csp_NewErXiaoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "guanying_4k",
+      "name": "📺 [4K] 观影┃4K",
       "type": 3,
       "api": "csp_NewGuanYingGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 120
+      "changeable": 0
     },
     {
-      "key": "WexBoBo",
-      "name": "🎇伯伯┃秒播🎇",
+      "key": "jutou_4k",
+      "name": "📺 [4K] 爵头┃4K",
       "type": 3,
-      "api": "csp_WexBoBoGuard",
+      "api": "csp_NewJuTouGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexIkanBot",
-      "name": "🎇爱看┃采集🎇",
+      "key": "4kzn_4k",
+      "name": "📺 [4K] 4K 在线┃4K",
       "type": 3,
-      "api": "csp_WexIkanBotGuard",
+      "api": "csp_New4KZnGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexYiYs",
-      "name": "💥伊影┃秒播💥",
-      "type": 3,
-      "api": "csp_WexYiYsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexV6TeGou",
-      "name": "💥太狗┃秒播💥",
-      "type": 3,
-      "api": "csp_WexV6TeGouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexV6DaShiXiong",
-      "name": "💥师兄┃秒播💥",
-      "type": 3,
-      "api": "csp_WexV6DaShiXiongGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexWenCai",
-      "name": "💥文才┃秒播💥",
+      "key": "wencai",
+      "name": "⚡️ [秒播] 文才影视┃优化版",
       "type": 3,
       "api": "csp_WexWenCaiGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext": "https://api.wenchai.net"
     },
     {
-      "key": "WexReBo",
-      "name": "💥热播┃秒播💥",
+      "key": "rebo",
+      "name": "⚡️ [秒播] 热播之家",
       "type": 3,
       "api": "csp_WexReBoGuard",
       "searchable": 1,
@@ -186,8 +170,8 @@
       "changeable": 0
     },
     {
-      "key": "WexDuBoKu",
-      "name": "💥独播┃秒播💥",
+      "key": "duboku",
+      "name": "⚡️ [秒播] 独播库",
       "type": 3,
       "api": "csp_WexDuBoKuGuard",
       "searchable": 1,
@@ -195,8 +179,26 @@
       "changeable": 0
     },
     {
-      "key": "WexGuaZi",
-      "name": "💥瓜子┃秒播💥",
+      "key": "shixiong",
+      "name": "⚡️ [秒播] 师兄电影",
+      "type": 3,
+      "api": "csp_WexV6DaShiXiongGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "yiyingshi",
+      "name": "⚡️ [秒播] 伊影影视",
+      "type": 3,
+      "api": "csp_WexYiYsGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "guazi",
+      "name": "⚡️ [秒播] 瓜子视频",
       "type": 3,
       "api": "csp_WexGuaZiGuard",
       "searchable": 1,
@@ -204,8 +206,8 @@
       "changeable": 0
     },
     {
-      "key": "賤賤",
-      "name": "💥贱片┃秒播💥",
+      "key": "jianpian",
+      "name": "⚡️ [秒播] 荐片",
       "type": 3,
       "api": "csp_WexJianPianGuard",
       "searchable": 1,
@@ -213,270 +215,187 @@
       "changeable": 0
     },
     {
-      "key": "WexYueYue",
-      "name": "💥闪电┃秒播💥",
+      "key": "bobo",
+      "name": "⚡️ [秒播] 伯伯",
       "type": 3,
-      "api": "csp_WexYueYueGuard",
+      "api": "csp_WexBoBoGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexHanXiaoQuan",
-      "name": "💥韩剧┃秒播💥",
+      "key": "tegou",
+      "name": "⚡️ [秒播] 特狗",
       "type": 3,
-      "api": "csp_WexHanXiaoQuanGuard",
+      "api": "csp_WexV6TeGouGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "Auto_Bili",
-      "name": "秒播┃Bili",
+      "key": "ikanbot",
+      "name": "⚡️ [秒播] 爱看 bot",
+      "type": 3,
+      "api": "csp_WexIkanBotGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "bili_zongyi",
+      "name": "🎭 [综艺] 哔哩综合",
       "type": 3,
       "api": "csp_BiliGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {}
+      "ext": {
+        "json": "https://abu168888.github.io/tvbox-config/lib/bili001.txt"
+      }
     },
     {
-      "key": "Auto_LiveBiLi",
-      "name": "秒播┃直播 B 站",
+      "key": "bili_live",
+      "name": "🎭 [综艺] 哔哩直播",
       "type": 3,
       "api": "csp_LiveBiLiGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "duanju_haokan",
+      "name": "🎬 [短剧] 短剧好看",
+      "type": 3,
+      "api": "csp_DuanJuHaoKanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "ManJuQiMao",
-      "name": "🍉漫剧┃小猫🍉",
+      "key": "duanju_hema",
+      "name": "🎬 [短剧] 盒马短剧",
       "type": 3,
-      "类型": "短剧",
-      "api": "csp_ManJuQiMaoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "ManJuHuoLong",
-      "name": "🍉漫剧┃小龙🍉",
-      "type": 3,
-      "类型": "短剧",
-      "api": "csp_ManJuHuoLongGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "ManJuXiFan",
-      "name": "🍉漫短┃小喜🍉",
-      "type": 3,
-      "类型": "短剧",
-      "api": "csp_ManJuXiFanGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "ManJuHongGuo",
-      "name": "🍉漫短┃小红🍉",
-      "type": 3,
-      "类型": "短剧",
-      "api": "csp_ManJuHongGuoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "ManJuAiHeMa",
-      "name": "🍉漫短┃小马🍉",
-      "type": 3,
-      "类型": "短剧",
       "api": "csp_DuanJuHeMaGuard",
       "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "DuanJuHaoKan",
-      "name": "🍉短剧┃好看🍉",
+      "key": "duanju_qimiao",
+      "name": "🎬 [短剧] 奇喵短剧",
       "type": 3,
-      "类型": "短剧",
-      "api": "csp_DuanJuHaoKanGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "DuanJuQiMiao",
-      "name": "🍉短剧┃小猫🍉",
-      "type": 3,
-      "类型": "短剧",
       "api": "csp_DuanJuQiMiaoGuard",
       "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "DuanJuWeiGuan",
-      "name": "🍉短剧┃小薇🍉",
+      "key": "duanju_weiguan",
+      "name": "🎬 [短剧] 微观短剧",
       "type": 3,
-      "类型": "短剧",
       "api": "csp_DuanJuWeiGuanGuard",
       "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "DuanJuXingYa",
-      "name": "🍉短剧┃星星🍉",
+      "key": "duanju_xingya",
+      "name": "🎬 [短剧] 星雅短剧",
       "type": 3,
-      "类型": "短剧",
       "api": "csp_DuanJuXingYaGuard",
       "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "SportWwe",
-      "name": "🌐WWE┃体育🌐",
+      "key": "manju_hongguo",
+      "name": "🎬 [短剧] 漫红果",
       "type": 3,
-      "api": "csp_SportWweGuard",
+      "api": "csp_ManJuHongGuoGuard",
       "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "SportKanqiu",
-      "name": "🌐八八┃体育🌐",
-      "type": 3,
-      "api": "csp_SportKanqiuGuard",
-      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "SportKaFei",
-      "name": "🌐咖啡┃体育🌐",
+      "key": "manju_huolong",
+      "name": "🎬 [短剧] 漫火龙",
       "type": 3,
-      "api": "csp_SportKaFeiGuard",
+      "api": "csp_ManJuHuoLongGuard",
       "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
-      "key": "SportKanQiuTong",
-      "name": "🌐球通┃体育🌐",
+      "key": "manju_qimao",
+      "name": "🎬 [短剧] 漫奇猫",
       "type": 3,
-      "api": "csp_SportKanQiuTongGuard",
+      "api": "csp_ManJuQiMaoGuard",
       "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
-      "key": "SportGuaZi",
-      "name": "🌐瓜子┃体育🌐",
+      "key": "manju_xifan",
+      "name": "🎬 [短剧] 漫西番",
       "type": 3,
-      "api": "csp_SportGuaZiGuard",
+      "api": "csp_ManJuXiFanGuard",
       "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
-      "key": "SportFeiQiu",
-      "name": "🌐飞球┃体育🌐",
+      "key": "feiqiu",
+      "name": "🏀 [体育] 飞球体育",
       "type": 3,
       "api": "csp_SportFeiQiuGuard",
       "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    }
-  ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
+      "key": "guazitiyu",
+      "name": "🏀 [体育] 瓜子体育",
+      "type": 3,
+      "api": "csp_SportGuaZiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141"
-      ]
+      "key": "kafei",
+      "name": "🏀 [体育] 咖啡体育",
+      "type": 3,
+      "api": "csp_SportKaFeiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40"
-      ]
+      "key": "kanqiutong",
+      "name": "🏀 [体育] 球通",
+      "type": 3,
+      "api": "csp_SportKanQiuTongGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112"
-      ]
-    }
-  ],
-  "rules": [
-    {
-      "name": "ad",
-      "hosts": [
-        "raw.githubusercontent.com"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY"
-      ]
+      "key": "kanqiu",
+      "name": "🏀 [体育] 八八看球",
+      "type": 3,
+      "api": "csp_SportKanqiuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
-      "name": "嗅探",
-      "hosts": [
-        "m3u8"
-      ],
-      "regex": [
-        "^https?://.*m3u8"
-      ]
-    },
-    {
-      "name": "广告过滤",
-      "hosts": [
-        "*"
-      ],
-      "regex": [
-        "http://(\\d+\\.){3}\\d+:6161/ads?"
-      ]
-    }
-  ],
-  "ads": [
-    "static-moz.letv.com",
-    "qian.ganttsoft.com"
-  ],
-  "headers": [
-    {
-      "host": "hlsztemgsplive.miguvideo.com",
-      "header": {
-        "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
-      }
+      "key": "wwe",
+      "name": "🏀 [体育] WWE 体育",
+      "type": 3,
+      "api": "csp_SportWweGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     }
   ],
   "parses": [
@@ -507,5 +426,28 @@
       "type": 0,
       "url": "https://abu168888.github.io/tvbox-config/live_sources/live_sources.txt"
     }
+  ],
+  "rules": [
+    {
+      "name": "ad",
+      "hosts": [
+        "raw.githubusercontent.com"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "嗅探",
+      "hosts": [
+        "m3u8"
+      ],
+      "regex": [
+        "^https?://.*m3u8"
+      ]
+    }
+  ],
+  "ads": [
+    "static-moz.letv.com"
   ]
 }
