@@ -111,15 +111,6 @@
       "filterable": 1
     },
     {
-      "key": "360",
-      "name": "📺360┃采集",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "虎牙",
       "name": "📺虎牙┃采集",
       "type": 1,
@@ -151,6 +142,33 @@
       "name": "📺探探┃采集",
       "type": 1,
       "api": "https://app.dyg666.top/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "360",
+      "name": "📺360┃采集",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "快手",
+      "name": "📺快手┃采集",
+      "type": 1,
+      "api": "https://www.kzysj.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "奇虎",
+      "name": "📺奇虎┃采集",
+      "type": 1,
+      "api": "https://qhzyz.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
