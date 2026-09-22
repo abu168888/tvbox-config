@@ -12,63 +12,30 @@
       "key": "éå‡¡èµ„æº",
       "name": "éå‡¡èµ„æº",
       "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod",
+      "api": "http://ffzyapi.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     },
     {
       "key": "360èµ„æº",
-      "name": "360èµ„æº",
+      "name": "36:-jæº",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     },
     {
-      "key": "çº¢ç‰›èµ„æº",
-      "name": "çº¢ç‰›èµ„æº",
+      "key": .›ª.x™¾‹XNk©"ÀĞ¢&æÖR#¢.{ª.x™¾‹XNk©"ÀĞ¢'G—R#¢ÀĞ¢&’#¢&‡GG3¢ò÷wwræ†öævæ—W§“"æ6öÒö’ç‡÷&÷f–FR÷föB"ÀĞ¢'Æ•W&Â#¢""ÀĞ¢&6FVv÷&–W2#¢µĞĞ¢ÒÀĞ¢°Ğ¢&¶W’#¢.˜	şi*Ş‹XNk©"ÀĞ¢&æÖR#¢.˜	şi*Ş‹XNk©"ÀĞ¢'G—R#¢ÀĞ¢&’#¢&‡GG3¢ò÷7V&ö6–¦’æ6öÒö’ç‡÷&÷f–FR÷föB"ÀĞ¢'Æ•W&Â#¢""ÀĞ¢&6FVv÷&–W2#¢µĞĞ¢ÒÀĞ¢°Ğ¢&¶W’#¢.iè˜	ş‹XNk©"ÀĞ¢&æÖR#¢.iè˜	ş‹XNk©"ÀĞ¢'G—R#¢ÀĞ¢&’#¢&‡GG3¢òö§7§–’æ6öÒö’ç‡÷&÷f–FR÷föB"ÀĞ¢'Æ•W&Â#¢""ÀĞ¢&6FVv÷&–W2#¢µĞĞ¢ÒÀĞ¢°Ğ¢&¶W’#¢.šÙN˜;Ş‹XNk©"ÀĞ¢&æÖR#¢.šÙN˜;Ş‹XNk©"ÀĞ¢'G—R#¢ÀĞ¢&’#¢&‡GG3¢ò÷wwræÖG§–’æ6öÒö’ç‡÷&÷f–FR÷föB"ÀĞ¢'Æ•W&Â#¢""ÀĞ¢&6FVv÷&–W2#¢µĞĞ¢ÒÀĞ¢°Ğ¢&¶W’#¢.Xš~˜xÎXš~ZIb"ÀĞ¢&æÖR#¢.Xš~˜xÎXš~ZIb",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "é€Ÿæ’­èµ„æº",
-      "name": "é€Ÿæ’­èµ„æº",
-      "type": 1,
-      "api": "https://subocaiji.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "æé€Ÿèµ„æº",
-      "name": "æé€Ÿèµ„æº",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "é­”éƒ½èµ„æº",
-      "name": "é­”éƒ½èµ„æº",
-      "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "å‰§é‡Œå‰§å¤–",
-      "name": "å‰§é‡Œå‰§å¤–",
-      "type": 1,
-      "api": "https://jyzyapi.com/provide/vod",
+      "api": "https://jzyapi.com/provide/vod",
       "playUrl": "",
       "categories": []
     },
     {
       "key": "çŒ«çˆªèµ„æº",
-      "name": "çŒ«çˆªèµ„æº",
+      "name": "é°åˆªèµ„æº",
       "type": 1,
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "api": "https://m3u8.apiyhjy.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     }
