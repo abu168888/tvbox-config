@@ -18,7 +18,7 @@
     },
     {
       "key": "草榴资源",
-      "name": "草���资源",
+      "name": "草榴资源",
       "type": 1,
       "api": "https://subocaiji.com/api.php/provide/vod",
       "playUrl": "",
@@ -44,13 +44,13 @@
       "key": "红牛云",
       "name": "红牛云",
       "type": 1,
-       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     },
     {
-      "key": "阿雌鱼",
-      "name": "阿雌鱼",
+      "key": "阿里鱼",
+      "name": "阿里鱼",
       "type": 1,
       "api": "https://api.apilyzy.com/api.php/provide/vod",
       "playUrl": "",
