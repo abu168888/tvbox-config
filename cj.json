@@ -18,17 +18,9 @@
     },
     {
       "key": "草榴资源",
-      "name": "草榴资源",
+      "name": "草���资源",
       "type": 1,
       "api": "https://subocaiji.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "猫爪资源",
-      "name": "猫爪资源",
-      "type": 1,
-      "api": "https://jzyapi.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     },
@@ -45,6 +37,22 @@
       "name": "花蜜资源",
       "type": 1,
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "playUrl": "",
+      "categories": []
+    },
+    {
+      "key": "红牛云",
+      "name": "红牛云",
+      "type": 1,
+       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "playUrl": "",
+      "categories": []
+    },
+    {
+      "key": "阿雌鱼",
+      "name": "阿雌鱼",
+      "type": 1,
+      "api": "https://api.apilyzy.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     }
