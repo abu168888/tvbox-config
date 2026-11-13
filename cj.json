@@ -9,22 +9,6 @@
       "categories": []
     },
     {
-      "key": "360资源",
-      "name": "360资源",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "草榴资源",
-      "name": "草榴资源",
-      "type": 1,
-      "api": "https://subocaiji.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
       "key": "蛋蛋资源",
       "name": "蛋蛋资源",
       "type": 1,
@@ -49,10 +33,26 @@
       "categories": []
     },
     {
-      "key": "阿里鱼",
-      "name": "阿里鱼",
+      "key": "索尼资源",
+      "name": "索尼资源",
       "type": 1,
-      "api": "https://api.apilyzy.com/api.php/provide/vod",
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "playUrl": "",
+      "categories": []
+    },
+    {
+      "key": "草榴资源",
+      "name": "草榴资源",
+      "type": 1,
+      "api": "https://www.ckzy1.com/api.php/provide/vod",
+      "playUrl": "",
+      "categories": []
+    },
+    {
+      "key": "360资源",
+      "name": "360资源",
+      "type": 1,
+      "api": "https://www.360zyw.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     }
