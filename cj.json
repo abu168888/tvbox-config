@@ -1,14 +1,6 @@
 {
   "sites": [
     {
-      "key": "量子资源",
-      "name": "量子资源",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
       "key": "蛋蛋资源",
       "name": "蛋蛋资源",
       "type": 1,
@@ -17,26 +9,10 @@
       "categories": []
     },
     {
-      "key": "花蜜资源",
-      "name": "花蜜资源",
-      "type": 1,
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
       "key": "红牛云",
       "name": "红牛云",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "索尼资源",
-      "name": "索尼资源",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod",
+      "api": "https://www.hongiuzyr2.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     },
@@ -45,14 +21,6 @@
       "name": "草榴资源",
       "type": 1,
       "api": "https://www.ckzy1.com/api.php/provide/vod",
-      "playUrl": "",
-      "categories": []
-    },
-    {
-      "key": "360资源",
-      "name": "360资源",
-      "type": 1,
-      "api": "https://www.360zyw.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     }
