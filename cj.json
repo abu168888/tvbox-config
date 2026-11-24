@@ -9,8 +9,8 @@
       "categories": []
     },
     {
-      "key": "溢牙云",
-      "name": "红牙云",
+      "key": "红牛云",
+      "name": "红牛云",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
       "playUrl": "",
@@ -20,15 +20,15 @@
       "key": "草榴资源",
       "name": "草榴资源",
       "type": 1,
-      "api": "https://www.ckjy1.com/api.php/provide/vod",
+      "api": "https://www.ckzy1.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     },
     {
-      "key": "��fuan",
-      "name": "��fuan",
+      "key": "暴风资源",
+      "name": "暴风资源",
       "type": 1,
-      "api": "https*//api.ffzyapi.com/api.php/provide/vod",
+      "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "playUrl": "",
       "categories": []
     }
